@@ -23,9 +23,34 @@ namespace QuanLyCuaHangTapHoa
             qLCH = new QLCH();
             nhv = qLCH.NhanViens.Find("admin");
             lbTenNV.Text = nhv.TenNV;
+            load_pbNV(nhv.MaNV);
         }
+        public Bitmap ResizeBitmap(Bitmap img, int width, int height)
+        {
+            Bitmap newimg = new Bitmap(width, height);
+            using (Graphics g = Graphics.FromImage(newimg))
+            {
+                g.DrawImage(img, 0, 0, width, height);
+            }
+            return newimg;
+        }
+        
+        
+        void load_pbNV(string manv)
+        {
+            string path = Application.StartupPath + "\\images\\imgnv\\" + manv + ".png";
+            //try
+            {
+                Bitmap img = new Bitmap(path);
+                img = ResizeBitmap(img, pbNV.Width, pbNV.Height);
+                pbNV.Image = img;
+            }
+            //catch
+            {
 
+            }
 
+        }
         private void btnHangHoa_Click(object sender, EventArgs e)
         {
             
@@ -49,6 +74,16 @@ namespace QuanLyCuaHangTapHoa
         private void iconButton1_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FormBanHang(nhv));
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FormNhanVien());
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FormKhachHang());
         }
     }
 }

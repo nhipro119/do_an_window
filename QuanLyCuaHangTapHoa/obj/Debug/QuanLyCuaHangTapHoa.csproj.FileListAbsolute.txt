@@ -267,3 +267,4 @@ E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Form
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormNhapHang.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemMatHang.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemKhachMini.resources
+E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemNhanVien.resources

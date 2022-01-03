@@ -48,6 +48,7 @@ namespace QuanLyCuaHangTapHoa
             kh.TenKH = check(tbTen.Text);
             kh.Email = check(tbEmail.Text);
             kh.DiaChi = check(tbDiaChi.Text);
+            kh.DTL = 0;
             if(check_SDT(tbSDT.Text) )
             {
                 kh.SDTKH = tbSDT.Text;

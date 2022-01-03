@@ -40,7 +40,7 @@ namespace QuanLyCuaHangTapHoa
         {
             string ma = HH.SubItems[3].Text;
             string ten = HH.Text;
-            string SL = "2";
+            string SL = "1";
             string DG = HH.SubItems[2].Text;
             string tt = (int.Parse(DG) * int.Parse(SL)).ToString();
             string[] hh = { ma, ten,DG, "-", SL, "+", tt, "delete" };
@@ -95,7 +95,7 @@ namespace QuanLyCuaHangTapHoa
                 {
                     if (HH.SLTon > 0 && HH.isDelete != true)
                     {
-                        string path = Application.StartupPath + "\\images\\imghh\\" + HH.MaHang + ".jpg";
+                        string path = Application.StartupPath + "\\images\\imghh\\" + HH.MaHang + ".png";
                         imglMH.Images.Add(new Bitmap(path));
 
 
@@ -109,6 +109,7 @@ namespace QuanLyCuaHangTapHoa
                     }
                 }
             }
+
             
 
 
@@ -227,6 +228,7 @@ namespace QuanLyCuaHangTapHoa
             
             Int64 tienthoi = Int64.Parse(tbTienNhan.Text) - Int64.Parse(lbTongTien.Text);
             MessageBox.Show("số tiền trả lại khách là: " + tienthoi.ToString() + " vnd");
+            thread_load_lv(qLCH.HangHoas.ToList());
         }
         string TaoMa()
         {
@@ -314,6 +316,21 @@ namespace QuanLyCuaHangTapHoa
             else
             {
                 lbDiem.Text = kh.DTL.ToString();
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            string chuoi = tbTimKiem.Text.ToLower();
+            if( chuoi == "")
+            {
+                thread_load_lv(qLCH.HangHoas.ToList());
+            }
+            else
+            {
+                List<HangHoa> lhh;
+                lhh = (from hh in qLCH.HangHoas where hh.TenHang.ToLower().Contains(chuoi) select hh).ToList();
+                thread_load_lv(lhh);
             }
         }
     }

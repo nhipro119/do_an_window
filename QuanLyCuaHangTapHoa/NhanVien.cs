@@ -38,6 +38,9 @@ namespace QuanLyCuaHangTapHoa
         [StringLength(25)]
         public string ChucVu { get; set; }
         public Boolean isDelete { get; set; }
+        public String DiaChi { get; set; }
+
+        public string MatKhau { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<HoaDon> HoaDons { get; set; }
