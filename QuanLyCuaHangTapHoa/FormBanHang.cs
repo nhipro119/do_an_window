@@ -65,7 +65,7 @@ namespace QuanLyCuaHangTapHoa
         {
             Int32 tt= 0;
             
-            for (int i = 0; i < dgvHD.Rows.Count - 1; i++)
+            for (int i = 0; i < dgvHD.Rows.Count ; i++)
             {
                 tt += Int32.Parse(dgvHD.Rows[i].Cells[6].Value.ToString());
             }

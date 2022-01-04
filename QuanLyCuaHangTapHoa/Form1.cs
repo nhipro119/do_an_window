@@ -53,7 +53,7 @@ namespace QuanLyCuaHangTapHoa
         }
         private void btnHangHoa_Click(object sender, EventArgs e)
         {
-            
+            OpenChildForm(new FormMatHang());
         }
 
         private Form activeForm = null;
@@ -84,6 +84,11 @@ namespace QuanLyCuaHangTapHoa
         private void iconButton4_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FormKhachHang());
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

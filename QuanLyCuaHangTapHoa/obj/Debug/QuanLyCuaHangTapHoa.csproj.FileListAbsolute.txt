@@ -248,7 +248,6 @@ E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Pdf.v19.2.
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.csproj.AssemblyReference.cache
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Form1.resources
-E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Form2.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Properties.PopUpForm.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Properties.Resources.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.csproj.GenerateResource.cache
@@ -268,3 +267,5 @@ E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Form
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemMatHang.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemKhachMini.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemNhanVien.resources
+E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormMatHang.resources
+E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemLoaiHang.resources

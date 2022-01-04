@@ -98,7 +98,7 @@ namespace QuanLyCuaHangTapHoa
         }
         bool check_img()
         {
-            if(pbNV.Image == null)
+            if(pbHH.Image == null)
             {
                 MessageBox.Show("Hình ảnh không được bỏ trống");
                 return false;
@@ -138,8 +138,8 @@ namespace QuanLyCuaHangTapHoa
 
             {
                 string path = Application.StartupPath + "\\images\\imgnv\\" + manv + ".png";
-                Bitmap bmp_save = new Bitmap(pbNV.Image);
-                pbNV.Image.Dispose();
+                Bitmap bmp_save = new Bitmap(pbHH.Image);
+                pbHH.Image.Dispose();
                 bmp_save.Save(path, System.Drawing.Imaging.ImageFormat.Png);
             }
 
@@ -169,8 +169,8 @@ namespace QuanLyCuaHangTapHoa
         private void tbDuongDan_TextChanged(object sender, EventArgs e)
         {
             Bitmap imgnv = new Bitmap(tbDuongDan.Text);
-            imgnv = ResizeBitmap(imgnv, pbNV.Width, pbNV.Height);
-            pbNV.Image = imgnv;
+            imgnv = ResizeBitmap(imgnv, pbHH.Width, pbHH.Height);
+            pbHH.Image = imgnv;
         }
     }
 }

@@ -48,9 +48,9 @@ namespace QuanLyCuaHangTapHoa
             this.dpNS = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.tbDuongDan = new System.Windows.Forms.TextBox();
-            this.pbNV = new System.Windows.Forms.PictureBox();
+            this.pbHH = new System.Windows.Forms.PictureBox();
             this.btDuongDan = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pbNV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHH)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -208,13 +208,13 @@ namespace QuanLyCuaHangTapHoa
             this.tbDuongDan.TabIndex = 5;
             this.tbDuongDan.TextChanged += new System.EventHandler(this.tbDuongDan_TextChanged);
             // 
-            // pbNV
+            // pbHH
             // 
-            this.pbNV.Location = new System.Drawing.Point(90, 439);
-            this.pbNV.Name = "pbNV";
-            this.pbNV.Size = new System.Drawing.Size(276, 179);
-            this.pbNV.TabIndex = 7;
-            this.pbNV.TabStop = false;
+            this.pbHH.Location = new System.Drawing.Point(90, 439);
+            this.pbHH.Name = "pbHH";
+            this.pbHH.Size = new System.Drawing.Size(276, 179);
+            this.pbHH.TabIndex = 7;
+            this.pbHH.TabStop = false;
             // 
             // btDuongDan
             // 
@@ -232,7 +232,7 @@ namespace QuanLyCuaHangTapHoa
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 679);
             this.Controls.Add(this.btDuongDan);
-            this.Controls.Add(this.pbNV);
+            this.Controls.Add(this.pbHH);
             this.Controls.Add(this.tbDuongDan);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.dpNS);
@@ -255,7 +255,7 @@ namespace QuanLyCuaHangTapHoa
             this.Name = "FormThemNhanVien";
             this.Text = "FormThemNhanVien";
             this.Load += new System.EventHandler(this.FormThemNhanVien_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pbNV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHH)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -282,7 +282,7 @@ namespace QuanLyCuaHangTapHoa
         private System.Windows.Forms.DateTimePicker dpNS;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox tbDuongDan;
-        private System.Windows.Forms.PictureBox pbNV;
+        private System.Windows.Forms.PictureBox pbHH;
         private System.Windows.Forms.Button btDuongDan;
     }
 }
