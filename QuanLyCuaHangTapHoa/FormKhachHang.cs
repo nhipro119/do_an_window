@@ -20,6 +20,7 @@ namespace QuanLyCuaHangTapHoa
         }
         void load_dgv(List<KhachHang> lkh)
         {
+            dgvKH.Rows.Clear();
             foreach(KhachHang kh in lkh)
             {
                 string sdt = kh.SDTKH;

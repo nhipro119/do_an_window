@@ -32,6 +32,27 @@ namespace QuanLyCuaHangTapHoa
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dgvHD = new System.Windows.Forms.DataGridView();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.LvMatHang = new System.Windows.Forms.ListView();
+            this.imglMH = new System.Windows.Forms.ImageList(this.components);
+            this.tbTimKiem = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lbDiem = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.tbTienNhan = new System.Windows.Forms.TextBox();
+            this.tbSDTKH = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lbTongTien = new System.Windows.Forms.Label();
+            this.lbTamTinh = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbTennv = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.cbSDD = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbDTLSD = new System.Windows.Forms.Label();
             this.ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DG = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,26 +61,6 @@ namespace QuanLyCuaHangTapHoa
             this.Tang = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Tong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Xoa = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.LvMatHang = new System.Windows.Forms.ListView();
-            this.imglMH = new System.Windows.Forms.ImageList(this.components);
-            this.tbTimKiem = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lbDiem = new System.Windows.Forms.Label();
-            this.tbDTL = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.tbTienNhan = new System.Windows.Forms.TextBox();
-            this.tbSDTKH = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lbTongTien = new System.Windows.Forms.Label();
-            this.lbTamTinh = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbTennv = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHD)).BeginInit();
             this.panel3.SuspendLayout();
@@ -102,57 +103,7 @@ namespace QuanLyCuaHangTapHoa
             this.dgvHD.Size = new System.Drawing.Size(578, 197);
             this.dgvHD.TabIndex = 2;
             this.dgvHD.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHD_CellClick);
-            // 
-            // ma
-            // 
-            this.ma.HeaderText = "Column1";
-            this.ma.MinimumWidth = 6;
-            this.ma.Name = "ma";
-            this.ma.Visible = false;
-            // 
-            // ten
-            // 
-            this.ten.HeaderText = "Tên Hàng";
-            this.ten.MinimumWidth = 6;
-            this.ten.Name = "ten";
-            // 
-            // DG
-            // 
-            this.DG.HeaderText = "Đơn Giá";
-            this.DG.MinimumWidth = 6;
-            this.DG.Name = "DG";
-            // 
-            // Giam
-            // 
-            this.Giam.FillWeight = 15F;
-            this.Giam.HeaderText = "Giảm";
-            this.Giam.MinimumWidth = 6;
-            this.Giam.Name = "Giam";
-            // 
-            // SL
-            // 
-            this.SL.HeaderText = "Số Lượng";
-            this.SL.MinimumWidth = 6;
-            this.SL.Name = "SL";
-            // 
-            // Tang
-            // 
-            this.Tang.FillWeight = 15F;
-            this.Tang.HeaderText = "Tăng";
-            this.Tang.MinimumWidth = 6;
-            this.Tang.Name = "Tang";
-            // 
-            // Tong
-            // 
-            this.Tong.HeaderText = "Tổng Tiền";
-            this.Tong.MinimumWidth = 6;
-            this.Tong.Name = "Tong";
-            // 
-            // Xoa
-            // 
-            this.Xoa.HeaderText = "Xoá";
-            this.Xoa.MinimumWidth = 6;
-            this.Xoa.Name = "Xoa";
+            this.dgvHD.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHD_CellEndEdit);
             // 
             // panel3
             // 
@@ -175,7 +126,7 @@ namespace QuanLyCuaHangTapHoa
             this.LvMatHang.Size = new System.Drawing.Size(578, 627);
             this.LvMatHang.TabIndex = 2;
             this.LvMatHang.UseCompatibleStateImageBehavior = false;
-            this.LvMatHang.SelectedIndexChanged += new System.EventHandler(this.ListShowMatHang_SelectedIndexChanged);
+            this.LvMatHang.DoubleClick += new System.EventHandler(this.ListShowMatHang_SelectedIndexChanged);
             // 
             // imglMH
             // 
@@ -195,8 +146,10 @@ namespace QuanLyCuaHangTapHoa
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.cbSDD);
+            this.panel2.Controls.Add(this.lbDTLSD);
+            this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.lbDiem);
-            this.panel2.Controls.Add(this.tbDTL);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.iconButton2);
@@ -204,12 +157,12 @@ namespace QuanLyCuaHangTapHoa
             this.panel2.Controls.Add(this.tbSDTKH);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.lbTongTien);
             this.panel2.Controls.Add(this.lbTamTinh);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.lbTennv);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(578, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
@@ -220,27 +173,19 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.lbDiem.AutoSize = true;
             this.lbDiem.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDiem.Location = new System.Drawing.Point(466, 330);
+            this.lbDiem.Location = new System.Drawing.Point(414, 336);
             this.lbDiem.Name = "lbDiem";
+            this.lbDiem.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lbDiem.Size = new System.Drawing.Size(21, 24);
             this.lbDiem.TabIndex = 6;
             this.lbDiem.Text = "0";
             // 
-            // tbDTL
-            // 
-            this.tbDTL.Location = new System.Drawing.Point(341, 331);
-            this.tbDTL.Name = "tbDTL";
-            this.tbDTL.Size = new System.Drawing.Size(100, 23);
-            this.tbDTL.TabIndex = 5;
-            this.tbDTL.Text = "0";
-            this.tbDTL.TextChanged += new System.EventHandler(this.tbDTL_TextChanged);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(120, 534);
+            this.label2.Location = new System.Drawing.Point(63, 534);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 17);
+            this.label2.Size = new System.Drawing.Size(172, 24);
             this.label2.TabIndex = 4;
             this.label2.Text = "Tiền khách đưa:";
             // 
@@ -249,32 +194,16 @@ namespace QuanLyCuaHangTapHoa
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(196, 147);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(39, 17);
+            this.label10.Size = new System.Drawing.Size(57, 24);
             this.label10.TabIndex = 4;
             this.label10.Text = "SDT:";
-            // 
-            // iconButton2
-            // 
-            this.iconButton2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton2.IconColor = System.Drawing.Color.Black;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.Location = new System.Drawing.Point(19, 777);
-            this.iconButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(581, 55);
-            this.iconButton2.TabIndex = 3;
-            this.iconButton2.Text = "Thanh Toán";
-            this.iconButton2.UseVisualStyleBackColor = true;
-            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
             // tbTienNhan
             // 
             this.tbTienNhan.Location = new System.Drawing.Point(233, 534);
             this.tbTienNhan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbTienNhan.Name = "tbTienNhan";
-            this.tbTienNhan.Size = new System.Drawing.Size(242, 23);
+            this.tbTienNhan.Size = new System.Drawing.Size(242, 32);
             this.tbTienNhan.TabIndex = 1;
             // 
             // tbSDTKH
@@ -282,7 +211,7 @@ namespace QuanLyCuaHangTapHoa
             this.tbSDTKH.Location = new System.Drawing.Point(261, 142);
             this.tbSDTKH.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbSDTKH.Name = "tbSDTKH";
-            this.tbSDTKH.Size = new System.Drawing.Size(242, 23);
+            this.tbSDTKH.Size = new System.Drawing.Size(242, 32);
             this.tbSDTKH.TabIndex = 1;
             this.tbSDTKH.TextChanged += new System.EventHandler(this.tbSDTKH_TextChanged);
             // 
@@ -307,17 +236,6 @@ namespace QuanLyCuaHangTapHoa
             this.label6.Size = new System.Drawing.Size(127, 29);
             this.label6.TabIndex = 0;
             this.label6.Text = "Tổng Tiền:";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(108, 323);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(169, 29);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Sử dụng điểm:";
             // 
             // lbTongTien
             // 
@@ -363,6 +281,108 @@ namespace QuanLyCuaHangTapHoa
             this.lbTennv.TabIndex = 0;
             this.lbTennv.Text = "Time + tên NV";
             // 
+            // iconButton2
+            // 
+            this.iconButton2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton2.IconColor = System.Drawing.Color.Black;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.Location = new System.Drawing.Point(19, 777);
+            this.iconButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(581, 55);
+            this.iconButton2.TabIndex = 3;
+            this.iconButton2.Text = "Thanh Toán";
+            this.iconButton2.UseVisualStyleBackColor = true;
+            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
+            // 
+            // cbSDD
+            // 
+            this.cbSDD.AutoSize = true;
+            this.cbSDD.Location = new System.Drawing.Point(107, 336);
+            this.cbSDD.Name = "cbSDD";
+            this.cbSDD.Size = new System.Drawing.Size(177, 28);
+            this.cbSDD.TabIndex = 7;
+            this.cbSDD.Text = "Sử Dụng Điểm";
+            this.cbSDD.UseVisualStyleBackColor = true;
+            this.cbSDD.CheckedChanged += new System.EventHandler(this.cbSDD_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(390, 336);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(18, 24);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "/";
+            // 
+            // lbDTLSD
+            // 
+            this.lbDTLSD.AutoSize = true;
+            this.lbDTLSD.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDTLSD.Location = new System.Drawing.Point(329, 336);
+            this.lbDTLSD.Name = "lbDTLSD";
+            this.lbDTLSD.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbDTLSD.Size = new System.Drawing.Size(21, 24);
+            this.lbDTLSD.TabIndex = 6;
+            this.lbDTLSD.Text = "0";
+            // 
+            // ma
+            // 
+            this.ma.HeaderText = "Column1";
+            this.ma.MinimumWidth = 6;
+            this.ma.Name = "ma";
+            this.ma.Visible = false;
+            // 
+            // ten
+            // 
+            this.ten.HeaderText = "Tên Hàng";
+            this.ten.MinimumWidth = 6;
+            this.ten.Name = "ten";
+            this.ten.ReadOnly = true;
+            // 
+            // DG
+            // 
+            this.DG.HeaderText = "Đơn Giá";
+            this.DG.MinimumWidth = 6;
+            this.DG.Name = "DG";
+            this.DG.ReadOnly = true;
+            // 
+            // Giam
+            // 
+            this.Giam.FillWeight = 15F;
+            this.Giam.HeaderText = "Giảm";
+            this.Giam.MinimumWidth = 6;
+            this.Giam.Name = "Giam";
+            // 
+            // SL
+            // 
+            this.SL.HeaderText = "Số Lượng";
+            this.SL.MinimumWidth = 6;
+            this.SL.Name = "SL";
+            // 
+            // Tang
+            // 
+            this.Tang.FillWeight = 15F;
+            this.Tang.HeaderText = "Tăng";
+            this.Tang.MinimumWidth = 6;
+            this.Tang.Name = "Tang";
+            // 
+            // Tong
+            // 
+            this.Tong.HeaderText = "Tổng Tiền";
+            this.Tong.MinimumWidth = 6;
+            this.Tong.Name = "Tong";
+            this.Tong.ReadOnly = true;
+            // 
+            // Xoa
+            // 
+            this.Xoa.HeaderText = "Xoá";
+            this.Xoa.MinimumWidth = 6;
+            this.Xoa.Name = "Xoa";
+            // 
             // FormBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -394,7 +414,6 @@ namespace QuanLyCuaHangTapHoa
         private System.Windows.Forms.TextBox tbSDTKH;
         private System.Windows.Forms.Label lbTennv;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private FontAwesome.Sharp.IconButton iconButton2;
         private System.Windows.Forms.Label label6;
@@ -402,6 +421,13 @@ namespace QuanLyCuaHangTapHoa
         private System.Windows.Forms.Label lbTamTinh;
         private System.Windows.Forms.ListView LvMatHang;
         private System.Windows.Forms.ImageList imglMH;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox tbTienNhan;
+        private System.Windows.Forms.Label lbDiem;
+        private System.Windows.Forms.CheckBox cbSDD;
+        private System.Windows.Forms.Label lbDTLSD;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridViewTextBoxColumn ma;
         private System.Windows.Forms.DataGridViewTextBoxColumn ten;
         private System.Windows.Forms.DataGridViewTextBoxColumn DG;
@@ -410,10 +436,5 @@ namespace QuanLyCuaHangTapHoa
         private System.Windows.Forms.DataGridViewButtonColumn Tang;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tong;
         private System.Windows.Forms.DataGridViewButtonColumn Xoa;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tbTienNhan;
-        private System.Windows.Forms.TextBox tbDTL;
-        private System.Windows.Forms.Label lbDiem;
     }
 }

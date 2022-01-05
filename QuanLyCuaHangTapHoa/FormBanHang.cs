@@ -30,10 +30,32 @@ namespace QuanLyCuaHangTapHoa
         }
         private void ListShowMatHang_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
             if(LvMatHang.SelectedItems.Count > 0)
             {
+                bool check_hh = true;
                 ListViewItem HH = LvMatHang.SelectedItems[0];
-                Add_MH_In_HD(HH);
+                for (int i = 0; i < dgvHD.Rows.Count; i++)
+                {
+                    
+                    if (dgvHD.Rows[i].Cells[0].Value.ToString() == HH.SubItems[3].Text)
+                    {
+                        int sl = int.Parse(dgvHD.Rows[i].Cells[4].Value.ToString());
+                        sl++;
+                        dgvHD.Rows[i].Cells[4].Value = sl.ToString();
+                        check_hh = false;
+                        TinhTongTien();
+                        break;
+                    }
+                    
+                    
+                }
+                if(check_hh)
+                {
+                    Add_MH_In_HD(HH);
+                }
+                
+                
             }
         }
         void Add_MH_In_HD(ListViewItem HH)
@@ -70,13 +92,13 @@ namespace QuanLyCuaHangTapHoa
                 tt += Int32.Parse(dgvHD.Rows[i].Cells[6].Value.ToString());
             }
             lbTamTinh.Text = tt.ToString();
-            int diem = int.Parse(tbDTL.Text);
+            int diem = int.Parse(lbDTLSD.Text);
             tt -= (diem * 1000);
-            if(tt < 0)
-            {
-                tt = 0;
-                tbDTL.Text = (int.Parse(lbTamTinh.Text) / 1000).ToString();
-            }
+            //if(tt < 0)
+            //{
+            //    tt = 0;
+            //    tbDTL.Text = (int.Parse(lbTamTinh.Text) / 1000).ToString();
+            //}
             lbTongTien.Text = tt.ToString();
         }
         public void load_listview(List<HangHoa> listHH)
@@ -150,42 +172,51 @@ namespace QuanLyCuaHangTapHoa
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            bool checkSL = check_sl();
-            checkSL = check_tbTienNhan();
-            if (checkSL)
+            if(lbTamTinh.Text == "0")
             {
-                if(tbSDTKH.Text == "")
+                MessageBox.Show(" không có mặt hàng, không thể tính tiền ");
+            }
+            else
+            {
+                bool checkSL = check_sl();
+                bool check_tienNhan = check_tbTienNhan();
+
+                if (checkSL && check_tienNhan)
                 {
-                    Create_HD(null);
-                }
-                else
-                {
-                    if (Int64.TryParse(tbSDTKH.Text, out Int64 a ))
+                    if (tbSDTKH.Text == "")
                     {
-                        if(qLCH.KhachHangs.Find(tbSDTKH.Text) == null)
+                        Create_HD(null);
+                    }
+                    else
+                    {
+                        if (Int64.TryParse(tbSDTKH.Text, out Int64 a))
                         {
-                            DialogResult dialogResult = MessageBox.Show("khách hàng chưa có, bạn có muốn thêm không", "thông báo", MessageBoxButtons.YesNo);
-                            if (dialogResult == DialogResult.Yes)
+                            if (qLCH.KhachHangs.Find(tbSDTKH.Text) == null)
                             {
-                                FormThemKhachMini ftkmn = new FormThemKhachMini(tbSDTKH.Text);
-                                ftkmn.Show();
+                                DialogResult dialogResult = MessageBox.Show("khách hàng chưa có, bạn có muốn thêm không", "thông báo", MessageBoxButtons.YesNo);
+                                if (dialogResult == DialogResult.Yes)
+                                {
+                                    FormThemKhachMini ftkmn = new FormThemKhachMini(tbSDTKH.Text);
+                                    ftkmn.Show();
+                                }
+                                else
+                                {
+                                    Create_HD(null);
+                                }
                             }
                             else
                             {
-                                Create_HD(null);
+                                Create_HD(tbSDTKH.Text);
                             }
                         }
                         else
                         {
-                            Create_HD(tbSDTKH.Text);
+                            MessageBox.Show("số điện thoại Chỉ Được Nhập số điện thoại");
                         }
-                    }
-                    else
-                    {
-                        MessageBox.Show("Chỉ Được Nhập SDT");
                     }
                 }
             }
+            
         }
         void Create_HD(string SDT)
         {
@@ -200,12 +231,12 @@ namespace QuanLyCuaHangTapHoa
                 KhachHang kh = qLCH.KhachHangs.Find(SDT);
                 if (Int64.Parse(lbTongTien.Text) > 100000)
                 {
-                    hD.TienKhuyenMai = Int64.Parse(tbDTL.Text) * 1000;
+                    hD.TienKhuyenMai = Int64.Parse(lbDTLSD.Text) * 1000;
                     int diem;
                     int.TryParse((hD.TongTien / 20000).ToString(), out diem);
                     kh.DTL += diem;
                 }
-                kh.DTL -= int.Parse(tbDTL.Text);
+                kh.DTL -= int.Parse(lbDTLSD.Text);
                 qLCH.SaveChanges();
 
             }
@@ -268,44 +299,20 @@ namespace QuanLyCuaHangTapHoa
 
         bool check_tbTienNhan()
         {
-            Int64 so;
-            bool check = Int64.TryParse(tbTienNhan.Text, out so);
+            UInt64 so;
+            bool check = UInt64.TryParse(tbTienNhan.Text, out so);
             if(!check)
             {
-                MessageBox.Show(" chỉ được nhập số");
+                MessageBox.Show(" số tiền chỉ được nhập số");
                 return false;
             }
-            else if(so < Int64.Parse(lbTongTien.Text))
+            else if(so < UInt64.Parse(lbTongTien.Text))
             {
                 MessageBox.Show("só tiền nhập nhỏ hơn số tiền thanh toán");
                 return false;
             }
             return true;
         }
-
-        private void tbDTL_TextChanged(object sender, EventArgs e)
-        {
-            if(!int.TryParse(tbDTL.Text, out int a))
-            {
-                MessageBox.Show("chỉ được nhập số");
-                tbDTL.Text = "0";
-            }
-            else if (int.Parse(tbDTL.Text) < 0)
-            {
-                MessageBox.Show(" không được nhập số âm");
-            }
-            else if (int.Parse(tbDTL.Text) > int.Parse(lbDiem.Text))
-            {
-                MessageBox.Show("điểm nhập lớn hơn tổng điểm hiện có");
-            }
-            else
-            {
-                TinhTongTien();
-            }    
-            
-
-        }
-
         private void tbSDTKH_TextChanged(object sender, EventArgs e)
         {
             KhachHang kh = qLCH.KhachHangs.Find(tbSDTKH.Text);
@@ -332,6 +339,48 @@ namespace QuanLyCuaHangTapHoa
                 lhh = (from hh in qLCH.HangHoas where hh.TenHang.ToLower().Contains(chuoi) select hh).ToList();
                 thread_load_lv(lhh);
             }
+        }
+
+        private void cbSDD_CheckedChanged(object sender, EventArgs e)
+        {
+            if(cbSDD.Checked)
+            {
+                int dtd = int.Parse(lbDiem.Text);
+                int dcd = int.Parse(lbTamTinh.Text) / 1000;
+                if (dtd > dcd)
+                {
+                    lbDTLSD.Text = dcd.ToString();
+                }
+                else
+                {
+                    lbDTLSD.Text = dtd.ToString();
+                }
+                TinhTongTien();
+            }
+            else
+            {
+                lbDTLSD.Text = "0";
+                TinhTongTien();
+            }
+            
+            
+        }
+
+        private void dgvHD_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            int row = e.RowIndex;
+            string chuoi = dgvHD.Rows[row].Cells[4].Value.ToString();
+            bool check_parse = uint.TryParse(chuoi, out uint a);
+            if(!check_parse)
+            {
+                MessageBox.Show("số lượng chỉ được nhập số tự nhiên");
+                dgvHD.Rows[row].Cells[4].Value = "1";
+            }
+    
+            Int64 tong = 0;
+            tong = Int64.Parse(dgvHD.Rows[row].Cells[2].Value.ToString()) * int.Parse(dgvHD.Rows[row].Cells[4].Value.ToString());
+            dgvHD.Rows[row].Cells[6].Value = tong.ToString();
+            TinhTongTien();
         }
     }
 }

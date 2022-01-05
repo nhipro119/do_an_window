@@ -269,3 +269,5 @@ E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Form
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemNhanVien.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormMatHang.resources
 E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemLoaiHang.resources
+E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.ForgotPassForm.resources
+E:\C#\QuanLyCuaHangTapHoa\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.LogInForm.resources

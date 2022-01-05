@@ -33,6 +33,11 @@ namespace QuanLyCuaHangTapHoa
         {
             FormThemMatHang form = new FormThemMatHang();
             form.ShowDialog();
+            form.FormClosed += form_close;
+        }
+        void form_close(object sender, EventArgs e)
+        {
+            load_dgvhh(qLCH.HangHoas.ToList());
         }
         void load_dgvhh(List<HangHoa> lhh)
         {

@@ -127,6 +127,16 @@ namespace QuanLyCuaHangTapHoa
                 MessageBox.Show("Giá bán phải lớn hơn giá gốc");
                 return false;
             }
+            else if (uint.Parse(tbTL.Text) <= 0)
+            {
+                MessageBox.Show("Trọng lượng phải lớn hơn 0");
+                return false;
+            }
+            else if(Int64.Parse(tbGiaVon.Text) <= 0)
+            {
+                MessageBox.Show("giá vốn phải lớn hơn 0");
+                return false;
+            }
             return true;
         }
         
@@ -152,6 +162,7 @@ namespace QuanLyCuaHangTapHoa
                 save_img_hh(hh.MaHang);
                 MessageBox.Show("Thêm mặt hàng thành công");
             }
+            this.Close();
         }
         void save_img_hh(String mahh)
         {
