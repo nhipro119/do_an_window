@@ -44,72 +44,81 @@ namespace QuanLyCuaHangTapHoa
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 191);
+            this.label1.Location = new System.Drawing.Point(22, 155);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 17);
+            this.label1.Size = new System.Drawing.Size(138, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Số Điện Thoại Khách Hàng";
             // 
             // tbSDT
             // 
-            this.tbSDT.Location = new System.Drawing.Point(225, 186);
+            this.tbSDT.Location = new System.Drawing.Point(169, 151);
+            this.tbSDT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbSDT.Name = "tbSDT";
-            this.tbSDT.Size = new System.Drawing.Size(332, 22);
+            this.tbSDT.Size = new System.Drawing.Size(250, 20);
             this.tbSDT.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(87, 257);
+            this.label2.Location = new System.Drawing.Point(65, 209);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 17);
+            this.label2.Size = new System.Drawing.Size(89, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tên Khách Hàng";
             // 
             // tbTen
             // 
-            this.tbTen.Location = new System.Drawing.Point(225, 257);
+            this.tbTen.Location = new System.Drawing.Point(169, 209);
+            this.tbTen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbTen.Name = "tbTen";
-            this.tbTen.Size = new System.Drawing.Size(332, 22);
+            this.tbTen.Size = new System.Drawing.Size(250, 20);
             this.tbTen.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(87, 320);
+            this.label3.Location = new System.Drawing.Point(65, 260);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 17);
+            this.label3.Size = new System.Drawing.Size(32, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Email";
             // 
             // tbEmail
             // 
-            this.tbEmail.Location = new System.Drawing.Point(225, 320);
+            this.tbEmail.Location = new System.Drawing.Point(169, 260);
+            this.tbEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(332, 22);
+            this.tbEmail.Size = new System.Drawing.Size(250, 20);
             this.tbEmail.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(87, 376);
+            this.label4.Location = new System.Drawing.Point(65, 306);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 17);
+            this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "Địa Chỉ";
             // 
             // tbDiaChi
             // 
-            this.tbDiaChi.Location = new System.Drawing.Point(225, 376);
+            this.tbDiaChi.Location = new System.Drawing.Point(169, 306);
+            this.tbDiaChi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbDiaChi.Name = "tbDiaChi";
-            this.tbDiaChi.Size = new System.Drawing.Size(332, 22);
+            this.tbDiaChi.Size = new System.Drawing.Size(250, 20);
             this.tbDiaChi.TabIndex = 1;
             // 
             // btThem
             // 
-            this.btThem.Location = new System.Drawing.Point(225, 489);
+            this.btThem.Location = new System.Drawing.Point(169, 397);
+            this.btThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btThem.Name = "btThem";
-            this.btThem.Size = new System.Drawing.Size(127, 42);
+            this.btThem.Size = new System.Drawing.Size(95, 34);
             this.btThem.TabIndex = 2;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
@@ -118,17 +127,18 @@ namespace QuanLyCuaHangTapHoa
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(248, 70);
+            this.label5.Location = new System.Drawing.Point(186, 57);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 17);
+            this.label5.Size = new System.Drawing.Size(67, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Khách Hàng";
             // 
             // FormThemKhachMini
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(775, 632);
+            this.ClientSize = new System.Drawing.Size(581, 514);
             this.Controls.Add(this.btThem);
             this.Controls.Add(this.tbDiaChi);
             this.Controls.Add(this.label4);
@@ -139,7 +149,9 @@ namespace QuanLyCuaHangTapHoa
             this.Controls.Add(this.tbSDT);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormThemKhachMini";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormThemKhachMini";
             this.Load += new System.EventHandler(this.FormThemKhachMini_Load);
             this.ResumeLayout(false);

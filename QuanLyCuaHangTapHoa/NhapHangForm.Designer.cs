@@ -30,17 +30,17 @@ namespace QuanLyCuaHangTapHoa
         private void InitializeComponent()
         {
             this.dgv_PNH = new System.Windows.Forms.DataGridView();
+            this.Ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lb1 = new System.Windows.Forms.Label();
             this.cbNPP = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lbtt = new System.Windows.Forms.Label();
-            this.Ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_PNH)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,68 +55,14 @@ namespace QuanLyCuaHangTapHoa
             this.Gia,
             this.TT,
             this.lh});
-            this.dgv_PNH.Location = new System.Drawing.Point(2, 114);
+            this.dgv_PNH.Location = new System.Drawing.Point(2, 93);
+            this.dgv_PNH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgv_PNH.Name = "dgv_PNH";
             this.dgv_PNH.RowHeadersVisible = false;
             this.dgv_PNH.RowHeadersWidth = 51;
             this.dgv_PNH.RowTemplate.Height = 24;
-            this.dgv_PNH.Size = new System.Drawing.Size(506, 589);
+            this.dgv_PNH.Size = new System.Drawing.Size(380, 479);
             this.dgv_PNH.TabIndex = 0;
-            // 
-            // lb1
-            // 
-            this.lb1.AutoSize = true;
-            this.lb1.Location = new System.Drawing.Point(613, 199);
-            this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(46, 17);
-            this.lb1.TabIndex = 1;
-            this.lb1.Text = "label1";
-            // 
-            // cbNPP
-            // 
-            this.cbNPP.FormattingEnabled = true;
-            this.cbNPP.Location = new System.Drawing.Point(703, 199);
-            this.cbNPP.Name = "cbNPP";
-            this.cbNPP.Size = new System.Drawing.Size(121, 24);
-            this.cbNPP.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(616, 335);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "CSV";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(584, 578);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 43);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Thêm";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(613, 275);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Tổng tiền";
-            // 
-            // lbtt
-            // 
-            this.lbtt.AutoSize = true;
-            this.lbtt.Location = new System.Drawing.Point(700, 275);
-            this.lbtt.Name = "lbtt";
-            this.lbtt.Size = new System.Drawing.Size(16, 17);
-            this.lbtt.TabIndex = 1;
-            this.lbtt.Text = "0";
             // 
             // Ten
             // 
@@ -149,11 +95,72 @@ namespace QuanLyCuaHangTapHoa
             this.lh.Name = "lh";
             this.lh.Visible = false;
             // 
+            // lb1
+            // 
+            this.lb1.AutoSize = true;
+            this.lb1.Location = new System.Drawing.Point(460, 162);
+            this.lb1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb1.Name = "lb1";
+            this.lb1.Size = new System.Drawing.Size(35, 13);
+            this.lb1.TabIndex = 1;
+            this.lb1.Text = "label1";
+            // 
+            // cbNPP
+            // 
+            this.cbNPP.FormattingEnabled = true;
+            this.cbNPP.Location = new System.Drawing.Point(527, 162);
+            this.cbNPP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbNPP.Name = "cbNPP";
+            this.cbNPP.Size = new System.Drawing.Size(92, 21);
+            this.cbNPP.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(462, 272);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(56, 19);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "CSV";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(438, 470);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(84, 35);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Thêm";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(460, 223);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Tổng tiền";
+            // 
+            // lbtt
+            // 
+            this.lbtt.AutoSize = true;
+            this.lbtt.Location = new System.Drawing.Point(525, 223);
+            this.lbtt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbtt.Name = "lbtt";
+            this.lbtt.Size = new System.Drawing.Size(13, 13);
+            this.lbtt.TabIndex = 1;
+            this.lbtt.Text = "0";
+            // 
             // NhapHangForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(857, 706);
+            this.ClientSize = new System.Drawing.Size(643, 574);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cbNPP);
@@ -161,7 +168,9 @@ namespace QuanLyCuaHangTapHoa
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lb1);
             this.Controls.Add(this.dgv_PNH);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "NhapHangForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NhapHangForm";
             this.Load += new System.EventHandler(this.NhapHangForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_PNH)).EndInit();

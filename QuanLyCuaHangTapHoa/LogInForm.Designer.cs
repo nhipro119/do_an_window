@@ -51,10 +51,9 @@ namespace QuanLyCuaHangTapHoa
             this.LoginBtn.Appearance.Options.UseBackColor = true;
             this.LoginBtn.Appearance.Options.UseFont = true;
             this.LoginBtn.Appearance.Options.UseForeColor = true;
-            this.LoginBtn.Location = new System.Drawing.Point(243, 235);
-            this.LoginBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.LoginBtn.Location = new System.Drawing.Point(208, 191);
             this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(100, 28);
+            this.LoginBtn.Size = new System.Drawing.Size(86, 23);
             this.LoginBtn.TabIndex = 1;
             this.LoginBtn.Text = "Đăng nhập";
             this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
@@ -63,10 +62,9 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(77, 137);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.labelControl1.Location = new System.Drawing.Point(66, 111);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(88, 24);
+            this.labelControl1.Size = new System.Drawing.Size(70, 19);
             this.labelControl1.TabIndex = 2;
             this.labelControl1.Text = "Tài khoản";
             // 
@@ -74,10 +72,9 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(77, 190);
-            this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.labelControl2.Location = new System.Drawing.Point(66, 154);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(82, 24);
+            this.labelControl2.Size = new System.Drawing.Size(64, 19);
             this.labelControl2.TabIndex = 3;
             this.labelControl2.Text = "Mật khẩu";
             // 
@@ -85,77 +82,62 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(195, 15);
-            this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.labelControl3.Location = new System.Drawing.Point(167, 12);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(228, 45);
+            this.labelControl3.Size = new System.Drawing.Size(178, 35);
             this.labelControl3.TabIndex = 4;
             this.labelControl3.Text = "ĐĂNG NHẬP";
             // 
             // AccountTB
             // 
-            this.AccountTB.Location = new System.Drawing.Point(208, 133);
-            this.AccountTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.AccountTB.Location = new System.Drawing.Point(178, 108);
             this.AccountTB.Name = "AccountTB";
-            // 
-            // 
-            // 
             this.AccountTB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.AccountTB.Properties.Appearance.Options.UseFont = true;
-            this.AccountTB.Size = new System.Drawing.Size(293, 28);
+            this.AccountTB.Size = new System.Drawing.Size(251, 22);
             this.AccountTB.TabIndex = 7;
             // 
             // PassTB
             // 
-            this.PassTB.Location = new System.Drawing.Point(208, 186);
-            this.PassTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PassTB.Location = new System.Drawing.Point(178, 151);
             this.PassTB.Name = "PassTB";
-            // 
-            // 
-            // 
             this.PassTB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.PassTB.Properties.Appearance.Options.UseFont = true;
-            this.PassTB.Size = new System.Drawing.Size(211, 28);
+            this.PassTB.Size = new System.Drawing.Size(181, 22);
             this.PassTB.TabIndex = 8;
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(219, 65);
-            this.labelControl4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.labelControl4.Location = new System.Drawing.Point(188, 53);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(176, 17);
+            this.labelControl4.Size = new System.Drawing.Size(137, 13);
             this.labelControl4.TabIndex = 9;
             this.labelControl4.Text = "Chào mừng bạn quay trở lại!";
             // 
             // PassForgotLLB
             // 
-            this.PassForgotLLB.Location = new System.Drawing.Point(243, 302);
-            this.PassForgotLLB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PassForgotLLB.Location = new System.Drawing.Point(208, 245);
             this.PassForgotLLB.Name = "PassForgotLLB";
-            this.PassForgotLLB.Size = new System.Drawing.Size(102, 16);
+            this.PassForgotLLB.Size = new System.Drawing.Size(78, 13);
             this.PassForgotLLB.TabIndex = 10;
             this.PassForgotLLB.Text = "Quên mật khẩu?";
             // 
             // checkPass
             // 
-            this.checkPass.Location = new System.Drawing.Point(427, 187);
-            this.checkPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.checkPass.Location = new System.Drawing.Point(366, 152);
             this.checkPass.Name = "checkPass";
-            // 
-            // 
-            // 
             this.checkPass.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.checkPass.Properties.Appearance.Options.UseFont = true;
             this.checkPass.Properties.Caption = "Hiện mật khẩu";
-            this.checkPass.Size = new System.Drawing.Size(127, 25);
+            this.checkPass.Size = new System.Drawing.Size(109, 21);
             this.checkPass.TabIndex = 11;
             this.checkPass.CheckedChanged += new System.EventHandler(this.checkEdit1_CheckedChanged);
             // 
             // LogInForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(610, 350);
+            this.ClientSize = new System.Drawing.Size(523, 284);
             this.Controls.Add(this.checkPass);
             this.Controls.Add(this.PassForgotLLB);
             this.Controls.Add(this.labelControl4);
@@ -165,9 +147,9 @@ namespace QuanLyCuaHangTapHoa
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.LoginBtn);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "LogInForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LogInForm";
             this.Load += new System.EventHandler(this.LogInForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AccountTB.Properties)).EndInit();

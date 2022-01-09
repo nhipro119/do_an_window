@@ -25,8 +25,7 @@ namespace QuanLyCuaHangTapHoa
         {
             InitializeComponent();
             qLCH = new QLCH();
-            this.nhv = nhv;
-            lbTennv.Text = nhv.TenNV;
+            this.nhv = nhv;          
         }
         private void ListShowMatHang_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -44,7 +43,11 @@ namespace QuanLyCuaHangTapHoa
                         sl++;
                         dgvHD.Rows[i].Cells[4].Value = sl.ToString();
                         check_hh = false;
+                        Int64 tong = 0;
+                        tong = Int64.Parse(dgvHD.Rows[i].Cells[2].Value.ToString()) * int.Parse(dgvHD.Rows[i].Cells[4].Value.ToString());
+                        dgvHD.Rows[i].Cells[6].Value = tong.ToString();
                         TinhTongTien();
+                        
                         break;
                     }
                     
@@ -166,6 +169,10 @@ namespace QuanLyCuaHangTapHoa
                 {
                     dgvHD.Rows.RemoveAt(index);
                 }
+                //Int64 tong = 0;
+                //tong = Int64.Parse(dgvHD.Rows[index].Cells[2].Value.ToString()) * int.Parse(dgvHD.Rows[index].Cells[4].Value.ToString());
+                //dgvHD.Rows[index].Cells[6].Value = tong.ToString();
+                //TinhTongTien();
             }
             TinhTongTien();
         }
@@ -189,7 +196,7 @@ namespace QuanLyCuaHangTapHoa
                     }
                     else
                     {
-                        if (Int64.TryParse(tbSDTKH.Text, out Int64 a))
+                        if (UInt64.TryParse(tbSDTKH.Text, out UInt64 a))
                         {
                             if (qLCH.KhachHangs.Find(tbSDTKH.Text) == null)
                             {
@@ -211,7 +218,7 @@ namespace QuanLyCuaHangTapHoa
                         }
                         else
                         {
-                            MessageBox.Show("số điện thoại Chỉ Được Nhập số điện thoại");
+                            MessageBox.Show("số điện thoại chỉ được nhập dãy số 10 số");
                         }
                     }
                 }
@@ -243,7 +250,7 @@ namespace QuanLyCuaHangTapHoa
             qLCH.HoaDons.Add(hD);
             qLCH.SaveChanges();
 
-            for (int i = 0; i < dgvHD.Rows.Count - 1; i++)
+            for (int i = 0; i < dgvHD.Rows.Count ; i++)
             {
                 CTHD cTHD = new CTHD();
                 cTHD.MaHD = hD.MaHD;
@@ -283,7 +290,7 @@ namespace QuanLyCuaHangTapHoa
         }
         bool check_sl()
         {
-            for(int i = 0;i < dgvHD.Rows.Count -1; i++)
+            for(int i = 0;i < dgvHD.Rows.Count ; i++)
             {
                 string ma = dgvHD.Rows[i].Cells[0].Value.ToString();
                 HangHoa hh = qLCH.HangHoas.Find(ma);

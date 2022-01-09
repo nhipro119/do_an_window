@@ -15,11 +15,35 @@ namespace QuanLyCuaHangTapHoa
         QLCH qLCH;
         public Form1()
         {
-            InitializeComponent();          
+            InitializeComponent();
+            customDesing();
+        }
+
+        private void customDesing()
+        {
+            panelThongKeSubMenu.Visible = false;
+        }
+
+        private void hideSubMenu()
+        {
+            if (panelThongKeSubMenu.Visible == true)
+                panelThongKeSubMenu.Visible = false;
+        }
+
+        private void ShowMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            timer1.Start();
             qLCH = new QLCH();
             //nhv = qLCH.NhanViens.Find("admin");
             
@@ -105,6 +129,22 @@ namespace QuanLyCuaHangTapHoa
         private void BtNPP_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FormDoiTac());
+        }
+
+        private void iconButton5_Click(object sender, EventArgs e)
+        {
+            ShowMenu(panelThongKeSubMenu);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongTimeString();
+            label2.Text = DateTime.Now.ToLongDateString();
         }
     }
 }
