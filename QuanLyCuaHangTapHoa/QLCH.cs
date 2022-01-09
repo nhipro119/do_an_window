@@ -22,7 +22,7 @@ namespace QuanLyCuaHangTapHoa
         public virtual DbSet<PhieuNhapHang> PhieuNhapHangs { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<CTHD> CTHDs { get; set; }
-
+        public virtual DbSet<CTPNH> CTPNHs { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<DonDatHang>()
@@ -119,9 +119,6 @@ namespace QuanLyCuaHangTapHoa
                 .Property(e => e.MaPN)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<PhieuNhapHang>()
-                .Property(e => e.MaDDH)
-                .IsUnicode(false);
 
             modelBuilder.Entity<PhieuNhapHang>()
                 .Property(e => e.MaNV)
@@ -133,6 +130,16 @@ namespace QuanLyCuaHangTapHoa
 
             modelBuilder.Entity<CTHD>()
                 .Property(e => e.MaHH)
+                .IsUnicode(false);
+
+
+            modelBuilder.Entity<CTPNH>()
+                .Property(e => e.MaPN)
+                .IsUnicode(false);
+
+
+            modelBuilder.Entity<CTPNH>()
+                .Property(e => e.MaHang)
                 .IsUnicode(false);
         }
     }

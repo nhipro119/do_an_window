@@ -38,6 +38,8 @@ namespace QuanLyCuaHangTapHoa
             this.Ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbTimKiem = new System.Windows.Forms.TextBox();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.lbMa = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLH)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,7 +78,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             // btThem
             // 
-            this.btThem.Location = new System.Drawing.Point(437, 190);
+            this.btThem.Location = new System.Drawing.Point(340, 186);
             this.btThem.Name = "btThem";
             this.btThem.Size = new System.Drawing.Size(112, 46);
             this.btThem.TabIndex = 2;
@@ -97,8 +99,10 @@ namespace QuanLyCuaHangTapHoa
             this.dgvLH.RowHeadersVisible = false;
             this.dgvLH.RowHeadersWidth = 51;
             this.dgvLH.RowTemplate.Height = 24;
+            this.dgvLH.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvLH.Size = new System.Drawing.Size(309, 368);
             this.dgvLH.TabIndex = 3;
+            this.dgvLH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLH_CellClick);
             // 
             // Ma
             // 
@@ -120,17 +124,42 @@ namespace QuanLyCuaHangTapHoa
             this.tbTimKiem.TabIndex = 4;
             this.tbTimKiem.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // iconButton1
+            // 
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.Location = new System.Drawing.Point(458, 186);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(106, 46);
+            this.iconButton1.TabIndex = 5;
+            this.iconButton1.Text = "Xoá";
+            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // lbMa
+            // 
+            this.lbMa.AutoSize = true;
+            this.lbMa.Location = new System.Drawing.Point(327, 138);
+            this.lbMa.Name = "lbMa";
+            this.lbMa.Size = new System.Drawing.Size(200, 17);
+            this.lbMa.TabIndex = 0;
+            this.lbMa.Text = "không cần chính sửa label này";
+            this.lbMa.Visible = false;
+            // 
             // FormThemLoaiHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(576, 471);
+            this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.tbTimKiem);
             this.Controls.Add(this.dgvLH);
             this.Controls.Add(this.btThem);
             this.Controls.Add(this.tbTLH);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbMLH);
+            this.Controls.Add(this.lbMa);
             this.Controls.Add(this.label1);
             this.Name = "FormThemLoaiHang";
             this.Text = "FormThemLoaiHang";
@@ -152,5 +181,7 @@ namespace QuanLyCuaHangTapHoa
         private System.Windows.Forms.DataGridViewTextBoxColumn Ma;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ten;
         private System.Windows.Forms.TextBox tbTimKiem;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private System.Windows.Forms.Label lbMa;
     }
 }

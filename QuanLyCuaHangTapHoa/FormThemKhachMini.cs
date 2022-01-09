@@ -44,6 +44,7 @@ namespace QuanLyCuaHangTapHoa
         }
         private void btThem_Click(object sender, EventArgs e)
         {
+            QLCH qLCH = new QLCH();
             KhachHang kh = new KhachHang();
             kh.TenKH = check(tbTen.Text);
             kh.Email = check(tbEmail.Text);
@@ -51,12 +52,18 @@ namespace QuanLyCuaHangTapHoa
             kh.DTL = 0;
             if(check_SDT(tbSDT.Text) )
             {
-                kh.SDTKH = tbSDT.Text;
-                QLCH qLCH = new QLCH();
-                qLCH.KhachHangs.Add(kh);
-                qLCH.SaveChanges();
-                MessageBox.Show("Thêm khách hàng thành công");
-                this.Close();
+                if (qLCH.KhachHangs.Find(tbSDT.Text) != null)
+                {
+                    kh.SDTKH = tbSDT.Text;
+                    qLCH.KhachHangs.Add(kh);
+                    qLCH.SaveChanges();
+                    MessageBox.Show("Thêm khách hàng thành công");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Khách Hàng Đã Có");
+                }
             }
             else
             {

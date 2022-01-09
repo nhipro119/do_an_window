@@ -64,8 +64,42 @@ namespace QuanLyCuaHangTapHoa
         {
             qLCH = new QLCH();
             load_dgvhh(qLCH.HangHoas.ToList());
+            load_cbLMH();
+            load_cbNPP("0");
         }
-
+        void load_cbLMH()
+        {
+            List<LoaiHang> llh = (from lh in qLCH.LoaiHangs where lh.isDelete == false select lh).ToList(); 
+            LoaiHang tc = new LoaiHang();
+            tc.MaLH = "0";
+            tc.TenLH = "Tất cả";
+            llh.Insert(0, tc);
+            cbLH.DataSource = llh;
+            cbLH.DisplayMember = "TenLH";
+            cbLH.ValueMember = "MaLH";
+            cbLH.SelectedIndex = 0;
+        }
+        void load_cbNPP(string malH)
+        {
+            List<NhaPhanPhoi> lnpp;
+            if(malH == "0")
+            {
+                lnpp = qLCH.NhaPhanPhois.ToList();
+            }
+            else
+            {
+                lnpp = (from npp in qLCH.NhaPhanPhois where npp.MaLH == malH select npp).ToList();
+            }
+            lnpp = (from npp in lnpp where npp.isDelete == false select npp).ToList();
+            NhaPhanPhoi tc = new NhaPhanPhoi();
+            tc.MaNPP = "0";
+            tc.TenNPP = "Tất cả";
+            lnpp.Insert(0, tc);
+            cbNPP.DataSource = lnpp;
+            cbNPP.DisplayMember = "TenNPP";
+            cbNPP.ValueMember = "maNPP";
+            cbNPP.SelectedIndex = 0;
+        }
         public Bitmap ResizeBitmap(Bitmap img, int width, int height)
         {
             Bitmap newimg = new Bitmap(width, height);
@@ -144,22 +178,46 @@ namespace QuanLyCuaHangTapHoa
 
         private void tbTimKiem_TextChanged(object sender, EventArgs e)
         {
-            string chuoi = tbTimKiem.Text.ToLower();
-            if(chuoi == "")
-            {
-                load_dgvhh(qLCH.HangHoas.ToList());
-            }
-            else
-            {
-                List<HangHoa> lhh = (from hh in qLCH.HangHoas where hh.TenHang.ToLower().Contains(chuoi) select hh).ToList();
-                load_dgvhh(lhh);
-            }
+            TimKiemMH();
         }
 
         private void btThemLH_Click(object sender, EventArgs e)
         {
             FormThemLoaiHang ftlh = new FormThemLoaiHang();
             ftlh.ShowDialog() ;
+        }
+        void TimKiemMH()
+        {
+            List<HangHoa> lhh;
+            string mlh = cbLH.SelectedValue.ToString();
+            if(mlh == "0")
+            {
+                lhh = qLCH.HangHoas.ToList();
+            }
+            else
+            {
+                lhh = (from hh in qLCH.HangHoas where hh.MaLH == mlh select hh).ToList();
+            }
+            if( cbNPP.SelectedValue.ToString() != "0")
+            {
+                lhh = (from hh in lhh where hh.MaNPP == cbNPP.SelectedValue.ToString() select hh).ToList();
+            }
+            if (tbTimKiem.Text != "")
+            {
+                string chuoi = tbTimKiem.Text.ToLower();
+                lhh = (from hh in lhh where hh.TenHang.ToLower().Contains(chuoi) select hh).ToList();
+            }
+            load_dgvhh(lhh);
+        }
+        private void cbLH_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            load_cbNPP(cbLH.SelectedValue.ToString());
+            TimKiemMH();
+        }
+
+        private void cbNPP_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TimKiemMH();
         }
     }
 }

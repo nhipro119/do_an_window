@@ -26,10 +26,11 @@ namespace QuanLyCuaHangTapHoa
                 LoaiHang lh = new LoaiHang();
                 lh.MaLH = tbMLH.Text;
                 lh.TenLH = tbTLH.Text;
+                lh.isDelete = false;
                 qLCH.LoaiHangs.Add(lh);
                 qLCH.SaveChanges();
                 MessageBox.Show(" thêm loại hàng thành công");
-
+                load_dgv(qLCH.LoaiHangs.ToList());
             }
         }
         string create_mlh()
@@ -63,8 +64,12 @@ namespace QuanLyCuaHangTapHoa
             dgvLH.Rows.Clear();
             foreach (LoaiHang lh in llh)
             {
-                string[] tt = { lh.MaLH, lh.TenLH };
-                dgvLH.Rows.Add(tt);
+                if(!lh.isDelete)
+                {
+                    string[] tt = { lh.MaLH, lh.TenLH };
+                    dgvLH.Rows.Add(tt);
+                }
+                
             }
         }
         private void FormThemLoaiHang_Load(object sender, EventArgs e)
@@ -88,6 +93,44 @@ namespace QuanLyCuaHangTapHoa
                 List<LoaiHang> llh = (from lh in qLCH.LoaiHangs where lh.TenLH.ToLower().Contains(chuoi) select lh).ToList();
                 load_dgv(llh);
             }
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            string chuoi = lbMa.Text;
+            LoaiHang lh = qLCH.LoaiHangs.Find(chuoi);
+            if(chuoi == null)
+            {
+                MessageBox.Show(" chưa chọn loại hàng cần xoá");
+            }
+            else
+            {
+                List<NhaPhanPhoi> lnpp = (from npp in qLCH.NhaPhanPhois where npp.MaLH == chuoi && !npp.isDelete select npp).ToList();
+                if(lnpp.Count() >0)
+                {
+                    MessageBox.Show("cần phải xoá tất cả nhà phân phối cung cấp loại hàng này thì mới xoá được loại hàng");
+                }
+                else
+                {
+                    DialogResult dialogResult = MessageBox.Show("Bạn có muốn xoá loại hàng  này", "thông báo", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        lh.isDelete = true;
+                        qLCH.SaveChanges();
+                        MessageBox.Show(" Xoá thành công");
+                        qLCH.SaveChanges();
+                        load_dgv(qLCH.LoaiHangs.ToList());
+                    }
+                }    
+            }
+        }
+
+        private void dgvLH_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if(dgvLH.SelectedRows.Count > 0)
+            {
+                lbMa.Text = dgvLH.SelectedRows[0].Cells[0].Value.ToString();
+            }    
         }
     }
 }

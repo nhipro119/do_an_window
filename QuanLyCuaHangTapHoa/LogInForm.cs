@@ -13,6 +13,8 @@ namespace QuanLyCuaHangTapHoa
 {
     public partial class LogInForm : DevExpress.XtraEditors.XtraForm
     {
+        QLCH qLCH;
+        public NhanVien nv;
         public LogInForm()
         {
             InitializeComponent();
@@ -26,6 +28,8 @@ namespace QuanLyCuaHangTapHoa
         private void LogInForm_Load(object sender, EventArgs e)
         {
             PassTB.Properties.UseSystemPasswordChar = true;
+            qLCH = new QLCH();
+            
         }
 
         private void checkEdit1_CheckedChanged(object sender, EventArgs e)
@@ -37,6 +41,28 @@ namespace QuanLyCuaHangTapHoa
             else
             {
                 PassTB.Properties.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void LoginBtn_Click(object sender, EventArgs e)
+        {
+            NhanVien nv = qLCH.NhanViens.Find(AccountTB.Text);
+            if(nv != null)
+            {
+                if(nv.MatKhau.Equals(PassTB.Text))
+                {
+                    this.DialogResult = System.Windows.Forms.DialogResult.OK;
+                    
+                    this.nv = nv;
+                }
+                else
+                {
+                    MessageBox.Show("sai mật khẩu");
+                }
+            }
+            else
+            {
+                MessageBox.Show("sai tài khoản");
             }
         }
     }

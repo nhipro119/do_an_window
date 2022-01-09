@@ -45,6 +45,9 @@ namespace QuanLyCuaHangTapHoa
             this.panel6 = new System.Windows.Forms.Panel();
             this.tbTimKiem = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cbNPP = new System.Windows.Forms.ComboBox();
+            this.cbLH = new System.Windows.Forms.ComboBox();
+            this.btThemLH = new System.Windows.Forms.Button();
             this.pbHH = new System.Windows.Forms.PictureBox();
             this.btXoa = new System.Windows.Forms.Button();
             this.btSua = new System.Windows.Forms.Button();
@@ -67,7 +70,6 @@ namespace QuanLyCuaHangTapHoa
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btThemLH = new System.Windows.Forms.Button();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHH)).BeginInit();
             this.panel5.SuspendLayout();
@@ -217,11 +219,12 @@ namespace QuanLyCuaHangTapHoa
             this.tbTimKiem.Name = "tbTimKiem";
             this.tbTimKiem.Size = new System.Drawing.Size(647, 44);
             this.tbTimKiem.TabIndex = 1;
-            this.tbTimKiem.Text = "Tìm Kiếm";
             this.tbTimKiem.TextChanged += new System.EventHandler(this.tbTimKiem_TextChanged);
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.cbNPP);
+            this.panel1.Controls.Add(this.cbLH);
             this.panel1.Controls.Add(this.btThemLH);
             this.panel1.Controls.Add(this.pbHH);
             this.panel1.Controls.Add(this.btXoa);
@@ -253,6 +256,34 @@ namespace QuanLyCuaHangTapHoa
             this.panel1.Size = new System.Drawing.Size(411, 847);
             this.panel1.TabIndex = 7;
             // 
+            // cbNPP
+            // 
+            this.cbNPP.FormattingEnabled = true;
+            this.cbNPP.Location = new System.Drawing.Point(278, 88);
+            this.cbNPP.Name = "cbNPP";
+            this.cbNPP.Size = new System.Drawing.Size(121, 24);
+            this.cbNPP.TabIndex = 6;
+            this.cbNPP.SelectedIndexChanged += new System.EventHandler(this.cbNPP_SelectedIndexChanged);
+            // 
+            // cbLH
+            // 
+            this.cbLH.FormattingEnabled = true;
+            this.cbLH.Location = new System.Drawing.Point(169, 58);
+            this.cbLH.Name = "cbLH";
+            this.cbLH.Size = new System.Drawing.Size(121, 24);
+            this.cbLH.TabIndex = 6;
+            this.cbLH.SelectedIndexChanged += new System.EventHandler(this.cbLH_SelectedIndexChanged);
+            // 
+            // btThemLH
+            // 
+            this.btThemLH.Location = new System.Drawing.Point(29, 70);
+            this.btThemLH.Name = "btThemLH";
+            this.btThemLH.Size = new System.Drawing.Size(94, 42);
+            this.btThemLH.TabIndex = 5;
+            this.btThemLH.Text = "Thêm Loại Hàng";
+            this.btThemLH.UseVisualStyleBackColor = true;
+            this.btThemLH.Click += new System.EventHandler(this.btThemLH_Click);
+            // 
             // pbHH
             // 
             this.pbHH.Location = new System.Drawing.Point(92, 614);
@@ -263,7 +294,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             // btXoa
             // 
-            this.btXoa.Location = new System.Drawing.Point(215, 795);
+            this.btXoa.Location = new System.Drawing.Point(278, 795);
             this.btXoa.Name = "btXoa";
             this.btXoa.Size = new System.Drawing.Size(75, 23);
             this.btXoa.TabIndex = 3;
@@ -273,7 +304,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             // btSua
             // 
-            this.btSua.Location = new System.Drawing.Point(87, 795);
+            this.btSua.Location = new System.Drawing.Point(165, 795);
             this.btSua.Name = "btSua";
             this.btSua.Size = new System.Drawing.Size(75, 23);
             this.btSua.TabIndex = 3;
@@ -447,16 +478,6 @@ namespace QuanLyCuaHangTapHoa
             this.label1.TabIndex = 0;
             this.label1.Text = "Hàng Hóa";
             // 
-            // btThemLH
-            // 
-            this.btThemLH.Location = new System.Drawing.Point(32, 46);
-            this.btThemLH.Name = "btThemLH";
-            this.btThemLH.Size = new System.Drawing.Size(94, 42);
-            this.btThemLH.TabIndex = 5;
-            this.btThemLH.Text = "Thêm Loại Hàng";
-            this.btThemLH.UseVisualStyleBackColor = true;
-            this.btThemLH.Click += new System.EventHandler(this.btThemLH_Click);
-            // 
             // FormMatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -520,5 +541,7 @@ namespace QuanLyCuaHangTapHoa
         private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.Button btSua;
         private System.Windows.Forms.Button btThemLH;
+        private System.Windows.Forms.ComboBox cbNPP;
+        private System.Windows.Forms.ComboBox cbLH;
     }
 }

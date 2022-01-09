@@ -30,8 +30,10 @@ namespace QuanLyCuaHangTapHoa
         private void InitializeComponent()
         {
             this.ChucNang = new System.Windows.Forms.Panel();
-            this.pbNV = new System.Windows.Forms.PictureBox();
             this.lbTenNV = new System.Windows.Forms.Label();
+            this.panelChildForm = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pbNV = new System.Windows.Forms.PictureBox();
             this.iconButton5 = new FontAwesome.Sharp.IconButton();
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
@@ -39,16 +41,16 @@ namespace QuanLyCuaHangTapHoa
             this.btnHangHoa = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panelChildForm = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.BtNPP = new FontAwesome.Sharp.IconButton();
             this.ChucNang.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbNV)).BeginInit();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNV)).BeginInit();
             this.SuspendLayout();
             // 
             // ChucNang
             // 
+            this.ChucNang.Controls.Add(this.BtNPP);
             this.ChucNang.Controls.Add(this.pbNV);
             this.ChucNang.Controls.Add(this.lbTenNV);
             this.ChucNang.Controls.Add(this.iconButton5);
@@ -65,22 +67,43 @@ namespace QuanLyCuaHangTapHoa
             this.ChucNang.Size = new System.Drawing.Size(298, 847);
             this.ChucNang.TabIndex = 0;
             // 
-            // pbNV
-            // 
-            this.pbNV.Location = new System.Drawing.Point(24, 611);
-            this.pbNV.Name = "pbNV";
-            this.pbNV.Size = new System.Drawing.Size(236, 206);
-            this.pbNV.TabIndex = 1;
-            this.pbNV.TabStop = false;
-            // 
             // lbTenNV
             // 
             this.lbTenNV.AutoSize = true;
-            this.lbTenNV.Location = new System.Drawing.Point(45, 581);
+            this.lbTenNV.Location = new System.Drawing.Point(43, 608);
             this.lbTenNV.Name = "lbTenNV";
             this.lbTenNV.Size = new System.Drawing.Size(42, 17);
             this.lbTenNV.TabIndex = 1;
             this.lbTenNV.Text = "label1";
+            // 
+            // panelChildForm
+            // 
+            this.panelChildForm.Controls.Add(this.dataGridView1);
+            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildForm.Location = new System.Drawing.Point(298, 0);
+            this.panelChildForm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.Size = new System.Drawing.Size(1193, 847);
+            this.panelChildForm.TabIndex = 3;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1193, 847);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // pbNV
+            // 
+            this.pbNV.Location = new System.Drawing.Point(22, 638);
+            this.pbNV.Name = "pbNV";
+            this.pbNV.Size = new System.Drawing.Size(236, 206);
+            this.pbNV.TabIndex = 1;
+            this.pbNV.TabStop = false;
             // 
             // iconButton5
             // 
@@ -230,26 +253,18 @@ namespace QuanLyCuaHangTapHoa
             this.panel2.Size = new System.Drawing.Size(298, 123);
             this.panel2.TabIndex = 1;
             // 
-            // panelChildForm
+            // BtNPP
             // 
-            this.panelChildForm.Controls.Add(this.dataGridView1);
-            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(298, 0);
-            this.panelChildForm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(1193, 847);
-            this.panelChildForm.TabIndex = 3;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1193, 847);
-            this.dataGridView1.TabIndex = 0;
+            this.BtNPP.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.BtNPP.IconColor = System.Drawing.Color.Black;
+            this.BtNPP.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtNPP.Location = new System.Drawing.Point(22, 564);
+            this.BtNPP.Name = "BtNPP";
+            this.BtNPP.Size = new System.Drawing.Size(147, 29);
+            this.BtNPP.TabIndex = 1;
+            this.BtNPP.Text = "NPP";
+            this.BtNPP.UseVisualStyleBackColor = true;
+            this.BtNPP.Click += new System.EventHandler(this.BtNPP_Click);
             // 
             // Form1
             // 
@@ -266,9 +281,9 @@ namespace QuanLyCuaHangTapHoa
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ChucNang.ResumeLayout(false);
             this.ChucNang.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbNV)).EndInit();
             this.panelChildForm.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNV)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -287,6 +302,7 @@ namespace QuanLyCuaHangTapHoa
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label lbTenNV;
         private System.Windows.Forms.PictureBox pbNV;
+        private FontAwesome.Sharp.IconButton BtNPP;
     }
 }
 

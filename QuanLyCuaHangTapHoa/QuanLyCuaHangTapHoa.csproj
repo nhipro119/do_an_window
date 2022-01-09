@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CTHD.cs" />
+    <Compile Include="CTPNH.cs" />
     <Compile Include="DonDatHang.cs" />
     <Compile Include="ForgotPassForm.cs">
       <SubType>Form</SubType>
@@ -80,6 +81,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDoiTac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoiTac.designer.cs">
+      <DependentUpon>FormDoiTac.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMatHang.cs">
       <SubType>Form</SubType>
@@ -98,6 +105,12 @@
     </Compile>
     <Compile Include="FormKhachHang.designer.cs">
       <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhaCungCap.designer.cs">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
     </Compile>
     <Compile Include="FormNhanVien.cs">
       <SubType>Form</SubType>
@@ -135,6 +148,12 @@
     <Compile Include="FormThemNhanVien.Designer.cs">
       <DependentUpon>FormThemNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTKPNHcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTKPNHcs.Designer.cs">
+      <DependentUpon>FormTKPNHcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="HangHoa.cs" />
     <Compile Include="HoaDon.cs" />
     <Compile Include="KhachHang.cs" />
@@ -146,6 +165,12 @@
       <DependentUpon>LogInForm.cs</DependentUpon>
     </Compile>
     <Compile Include="NhanVien.cs" />
+    <Compile Include="NhapHangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhapHangForm.Designer.cs">
+      <DependentUpon>NhapHangForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="NhaPhanPhoi.cs" />
     <Compile Include="PhieuNhapHang.cs" />
     <Compile Include="Program.cs" />
@@ -158,6 +183,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDoiTac.resx">
+      <DependentUpon>FormDoiTac.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMatHang.resx">
       <DependentUpon>FormMatHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormKhachHang.resx">
       <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhaCungCap.resx">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNhanVien.resx">
       <DependentUpon>FormNhanVien.cs</DependentUpon>
@@ -185,8 +216,14 @@
     <EmbeddedResource Include="FormThemNhanVien.resx">
       <DependentUpon>FormThemNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormTKPNHcs.resx">
+      <DependentUpon>FormTKPNHcs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogInForm.resx">
       <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhapHangForm.resx">
+      <DependentUpon>NhapHangForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\PopUpForm.resx">

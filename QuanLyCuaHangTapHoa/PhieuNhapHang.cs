@@ -13,9 +13,6 @@ namespace QuanLyCuaHangTapHoa
         [StringLength(10)]
         public string MaPN { get; set; }
 
-        [StringLength(10)]
-        public string MaDDH { get; set; }
-
         [Column(TypeName = "date")]
         public DateTime? NgayNhap { get; set; }
 
@@ -23,9 +20,11 @@ namespace QuanLyCuaHangTapHoa
         public string MaNV { get; set; }
 
         public long? TongTien { get; set; }
+        [StringLength(10)]
+        public string MaNPP { get; set; }
+        public string MaDDH { get; set; }
 
         public virtual DonDatHang DonDatHang { get; set; }
-
         public virtual NhanVien NhanVien { get; set; }
     }
 }

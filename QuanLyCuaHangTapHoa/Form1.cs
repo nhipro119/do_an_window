@@ -21,9 +21,20 @@ namespace QuanLyCuaHangTapHoa
         private void Form1_Load(object sender, EventArgs e)
         {
             qLCH = new QLCH();
-            nhv = qLCH.NhanViens.Find("admin");
-            lbTenNV.Text = nhv.TenNV;
-            load_pbNV(nhv.MaNV);
+            //nhv = qLCH.NhanViens.Find("admin");
+            
+            LogInForm lif = new LogInForm();
+            while(true)
+            {
+                if (lif.ShowDialog() == DialogResult.OK)
+                {
+                    this.nhv = lif.nv;
+                    lbTenNV.Text = nhv.TenNV;
+                    load_pbNV(nhv.MaNV);
+                    break;
+                }
+            }
+            
         }
         public Bitmap ResizeBitmap(Bitmap img, int width, int height)
         {
@@ -88,7 +99,12 @@ namespace QuanLyCuaHangTapHoa
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            
+            OpenChildForm(new FormNhapHang());
+        }
+
+        private void BtNPP_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FormDoiTac());
         }
     }
 }

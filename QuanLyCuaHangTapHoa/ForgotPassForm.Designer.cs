@@ -39,28 +39,29 @@ namespace QuanLyCuaHangTapHoa
             this.label1_1 = new DevExpress.XtraEditors.LabelControl();
             this.CodePN = new System.Windows.Forms.Panel();
             this.ChangePassPN = new System.Windows.Forms.Panel();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.PassConfirmTB = new DevExpress.XtraEditors.TextEdit();
-            this.confirmChangeBTN = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.PassTB = new DevExpress.XtraEditors.TextEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.PassTB = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.confirmChangeBTN = new DevExpress.XtraEditors.SimpleButton();
+            this.PassConfirmTB = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.hyperlinkLabelControl1 = new DevExpress.XtraEditors.HyperlinkLabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.EmailTB.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CodeTB.Properties)).BeginInit();
             this.CodePN.SuspendLayout();
             this.ChangePassPN.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PassConfirmTB.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PassTB.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PassConfirmTB.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(175, 12);
+            this.labelControl3.Location = new System.Drawing.Point(204, 15);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(224, 35);
+            this.labelControl3.Size = new System.Drawing.Size(284, 45);
             this.labelControl3.TabIndex = 5;
             this.labelControl3.Text = "Quên mật khẩu";
             // 
@@ -68,20 +69,25 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(67, 125);
+            this.labelControl2.Location = new System.Drawing.Point(78, 154);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(131, 19);
+            this.labelControl2.Size = new System.Drawing.Size(165, 24);
             this.labelControl2.TabIndex = 6;
             this.labelControl2.Text = "Nhập địa chỉ email";
             this.labelControl2.Click += new System.EventHandler(this.labelControl2_Click);
             // 
             // EmailTB
             // 
-            this.EmailTB.Location = new System.Drawing.Point(214, 122);
+            this.EmailTB.Location = new System.Drawing.Point(250, 150);
+            this.EmailTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.EmailTB.Name = "EmailTB";
+            // 
+            // 
+            // 
             this.EmailTB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.EmailTB.Properties.Appearance.Options.UseFont = true;
-            this.EmailTB.Size = new System.Drawing.Size(278, 22);
+            this.EmailTB.Size = new System.Drawing.Size(324, 28);
             this.EmailTB.TabIndex = 7;
             // 
             // sendBTN
@@ -94,9 +100,10 @@ namespace QuanLyCuaHangTapHoa
             this.sendBTN.AppearancePressed.ForeColor = System.Drawing.Color.Silver;
             this.sendBTN.AppearancePressed.Options.UseBackColor = true;
             this.sendBTN.AppearancePressed.Options.UseForeColor = true;
-            this.sendBTN.Location = new System.Drawing.Point(246, 197);
+            this.sendBTN.Location = new System.Drawing.Point(287, 242);
+            this.sendBTN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.sendBTN.Name = "sendBTN";
-            this.sendBTN.Size = new System.Drawing.Size(75, 23);
+            this.sendBTN.Size = new System.Drawing.Size(87, 28);
             this.sendBTN.TabIndex = 8;
             this.sendBTN.Text = "Gửi";
             this.sendBTN.Click += new System.EventHandler(this.btn_EmailSend_Click);
@@ -105,9 +112,10 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.ShowEmailLB.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.ShowEmailLB.Appearance.Options.UseFont = true;
-            this.ShowEmailLB.Location = new System.Drawing.Point(55, 53);
+            this.ShowEmailLB.Location = new System.Drawing.Point(64, 65);
+            this.ShowEmailLB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ShowEmailLB.Name = "ShowEmailLB";
-            this.ShowEmailLB.Size = new System.Drawing.Size(447, 19);
+            this.ShowEmailLB.Size = new System.Drawing.Size(554, 24);
             this.ShowEmailLB.TabIndex = 9;
             this.ShowEmailLB.Text = "Một dãy kí tự đã được gửi đến doquoccuong81@yahoo.com.vn";
             // 
@@ -121,29 +129,35 @@ namespace QuanLyCuaHangTapHoa
             this.confirmCodeBTN.AppearancePressed.ForeColor = System.Drawing.Color.Silver;
             this.confirmCodeBTN.AppearancePressed.Options.UseBackColor = true;
             this.confirmCodeBTN.AppearancePressed.Options.UseForeColor = true;
-            this.confirmCodeBTN.Location = new System.Drawing.Point(227, 182);
+            this.confirmCodeBTN.Location = new System.Drawing.Point(265, 224);
+            this.confirmCodeBTN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.confirmCodeBTN.Name = "confirmCodeBTN";
-            this.confirmCodeBTN.Size = new System.Drawing.Size(82, 23);
+            this.confirmCodeBTN.Size = new System.Drawing.Size(96, 28);
             this.confirmCodeBTN.TabIndex = 12;
             this.confirmCodeBTN.Text = "Xác nhận";
             this.confirmCodeBTN.Click += new System.EventHandler(this.confirmBTN_Click);
             // 
             // CodeTB
             // 
-            this.CodeTB.Location = new System.Drawing.Point(259, 114);
+            this.CodeTB.Location = new System.Drawing.Point(302, 140);
+            this.CodeTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CodeTB.Name = "CodeTB";
+            // 
+            // 
+            // 
             this.CodeTB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.CodeTB.Properties.Appearance.Options.UseFont = true;
-            this.CodeTB.Size = new System.Drawing.Size(114, 22);
+            this.CodeTB.Size = new System.Drawing.Size(133, 28);
             this.CodeTB.TabIndex = 11;
             // 
             // label1_1
             // 
             this.label1_1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label1_1.Appearance.Options.UseFont = true;
-            this.label1_1.Location = new System.Drawing.Point(152, 117);
+            this.label1_1.Location = new System.Drawing.Point(177, 144);
+            this.label1_1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.label1_1.Name = "label1_1";
-            this.label1_1.Size = new System.Drawing.Size(88, 19);
+            this.label1_1.Size = new System.Drawing.Size(110, 24);
             this.label1_1.TabIndex = 10;
             this.label1_1.Text = "Nhập dãy số";
             // 
@@ -153,9 +167,10 @@ namespace QuanLyCuaHangTapHoa
             this.CodePN.Controls.Add(this.CodeTB);
             this.CodePN.Controls.Add(this.ShowEmailLB);
             this.CodePN.Controls.Add(this.label1_1);
-            this.CodePN.Location = new System.Drawing.Point(12, 53);
+            this.CodePN.Location = new System.Drawing.Point(14, 65);
+            this.CodePN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CodePN.Name = "CodePN";
-            this.CodePN.Size = new System.Drawing.Size(544, 226);
+            this.CodePN.Size = new System.Drawing.Size(635, 278);
             this.CodePN.TabIndex = 13;
             this.CodePN.Visible = false;
             // 
@@ -167,30 +182,47 @@ namespace QuanLyCuaHangTapHoa
             this.ChangePassPN.Controls.Add(this.confirmChangeBTN);
             this.ChangePassPN.Controls.Add(this.PassConfirmTB);
             this.ChangePassPN.Controls.Add(this.labelControl4);
-            this.ChangePassPN.Location = new System.Drawing.Point(12, 53);
+            this.ChangePassPN.Location = new System.Drawing.Point(14, 65);
+            this.ChangePassPN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ChangePassPN.Name = "ChangePassPN";
-            this.ChangePassPN.Size = new System.Drawing.Size(544, 226);
+            this.ChangePassPN.Size = new System.Drawing.Size(635, 278);
             this.ChangePassPN.TabIndex = 14;
             this.ChangePassPN.Visible = false;
             // 
-            // labelControl4
+            // labelControl5
             // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(111, 117);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(129, 19);
-            this.labelControl4.TabIndex = 10;
-            this.labelControl4.Text = "Nhập lại mật khẩu";
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.labelControl5.Appearance.Options.UseFont = true;
+            this.labelControl5.Location = new System.Drawing.Point(265, 37);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(120, 24);
+            this.labelControl5.TabIndex = 15;
+            this.labelControl5.Text = "Đổi mật khẩu";
             // 
-            // PassConfirmTB
+            // PassTB
             // 
-            this.PassConfirmTB.Location = new System.Drawing.Point(259, 114);
-            this.PassConfirmTB.Name = "PassConfirmTB";
-            this.PassConfirmTB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.PassConfirmTB.Properties.Appearance.Options.UseFont = true;
-            this.PassConfirmTB.Size = new System.Drawing.Size(185, 22);
-            this.PassConfirmTB.TabIndex = 11;
+            this.PassTB.Location = new System.Drawing.Point(302, 92);
+            this.PassTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PassTB.Name = "PassTB";
+            // 
+            // 
+            // 
+            this.PassTB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.PassTB.Properties.Appearance.Options.UseFont = true;
+            this.PassTB.Size = new System.Drawing.Size(216, 28);
+            this.PassTB.TabIndex = 14;
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Location = new System.Drawing.Point(129, 92);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(136, 24);
+            this.labelControl1.TabIndex = 13;
+            this.labelControl1.Text = "Nhập mật khẩu";
             // 
             // confirmChangeBTN
             // 
@@ -202,55 +234,52 @@ namespace QuanLyCuaHangTapHoa
             this.confirmChangeBTN.AppearancePressed.ForeColor = System.Drawing.Color.Silver;
             this.confirmChangeBTN.AppearancePressed.Options.UseBackColor = true;
             this.confirmChangeBTN.AppearancePressed.Options.UseForeColor = true;
-            this.confirmChangeBTN.Location = new System.Drawing.Point(227, 182);
+            this.confirmChangeBTN.Location = new System.Drawing.Point(265, 224);
+            this.confirmChangeBTN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.confirmChangeBTN.Name = "confirmChangeBTN";
-            this.confirmChangeBTN.Size = new System.Drawing.Size(82, 23);
+            this.confirmChangeBTN.Size = new System.Drawing.Size(96, 28);
             this.confirmChangeBTN.TabIndex = 12;
             this.confirmChangeBTN.Text = "Xác nhận";
             this.confirmChangeBTN.Click += new System.EventHandler(this.confirmChangeBTN_Click);
             // 
-            // labelControl1
+            // PassConfirmTB
             // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(111, 75);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(108, 19);
-            this.labelControl1.TabIndex = 13;
-            this.labelControl1.Text = "Nhập mật khẩu";
+            this.PassConfirmTB.Location = new System.Drawing.Point(302, 140);
+            this.PassConfirmTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PassConfirmTB.Name = "PassConfirmTB";
             // 
-            // PassTB
             // 
-            this.PassTB.Location = new System.Drawing.Point(259, 75);
-            this.PassTB.Name = "PassTB";
-            this.PassTB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.PassTB.Properties.Appearance.Options.UseFont = true;
-            this.PassTB.Size = new System.Drawing.Size(185, 22);
-            this.PassTB.TabIndex = 14;
             // 
-            // labelControl5
+            this.PassConfirmTB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.PassConfirmTB.Properties.Appearance.Options.UseFont = true;
+            this.PassConfirmTB.Size = new System.Drawing.Size(216, 28);
+            this.PassConfirmTB.TabIndex = 11;
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(227, 30);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(95, 19);
-            this.labelControl5.TabIndex = 15;
-            this.labelControl5.Text = "Đổi mật khẩu";
+            // labelControl4
+            // 
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.labelControl4.Appearance.Options.UseFont = true;
+            this.labelControl4.Location = new System.Drawing.Point(129, 144);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(163, 24);
+            this.labelControl4.TabIndex = 10;
+            this.labelControl4.Text = "Nhập lại mật khẩu";
             // 
             // hyperlinkLabelControl1
             // 
-            this.hyperlinkLabelControl1.Location = new System.Drawing.Point(223, 309);
+            this.hyperlinkLabelControl1.Location = new System.Drawing.Point(260, 380);
+            this.hyperlinkLabelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.hyperlinkLabelControl1.Name = "hyperlinkLabelControl1";
-            this.hyperlinkLabelControl1.Size = new System.Drawing.Size(122, 13);
+            this.hyperlinkLabelControl1.Size = new System.Drawing.Size(155, 16);
             this.hyperlinkLabelControl1.TabIndex = 15;
             this.hyperlinkLabelControl1.Text = "Quay lại form đăng nhập!";
             // 
             // ForgotPassForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(568, 347);
+            this.ClientSize = new System.Drawing.Size(663, 427);
             this.Controls.Add(this.hyperlinkLabelControl1);
             this.Controls.Add(this.ChangePassPN);
             this.Controls.Add(this.CodePN);
@@ -258,17 +287,19 @@ namespace QuanLyCuaHangTapHoa
             this.Controls.Add(this.EmailTB);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl3);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "ForgotPassForm";
             this.Text = "ForgotPassForm";
+            this.Load += new System.EventHandler(this.ForgotPassForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.EmailTB.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CodeTB.Properties)).EndInit();
             this.CodePN.ResumeLayout(false);
             this.CodePN.PerformLayout();
             this.ChangePassPN.ResumeLayout(false);
             this.ChangePassPN.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PassConfirmTB.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PassTB.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PassConfirmTB.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
