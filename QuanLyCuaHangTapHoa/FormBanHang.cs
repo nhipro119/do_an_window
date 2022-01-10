@@ -248,12 +248,12 @@ namespace QuanLyCuaHangTapHoa
             hD.SDTKH = SDT;
             hD.TongTien = Int64.Parse(lbTongTien.Text);
             hD.NgayLap = DateTime.Today;
+            hD.TienKhuyenMai = Int64.Parse(lbDTLSD.Text) * 1000;
             if (SDT != null)
             {
                 KhachHang kh = qLCH.KhachHangs.Find(SDT);
                 if (Int64.Parse(lbTongTien.Text) > 100000)
                 {
-                    hD.TienKhuyenMai = Int64.Parse(lbDTLSD.Text) * 1000;
                     int diem;
                     int.TryParse((hD.TongTien / 20000).ToString(), out diem);
                     kh.DTL += diem;
@@ -281,6 +281,13 @@ namespace QuanLyCuaHangTapHoa
             
             Int64 tienthoi = Int64.Parse(tbTienNhan.Text) - Int64.Parse(lbTongTien.Text);
             MessageBox.Show("số tiền trả lại khách là: " + tienthoi.ToString() + " vnd");
+            dgvHD.Rows.Clear();
+            tbSDTKH.Text = "";
+            tbTienNhan.Text = "";
+            lbDiem.Text = "0";
+            cbSDD.Checked = false;
+            lbTamTinh.Text = "0";
+            lbTongTien.Text = "0";
             thread_load_lv(qLCH.HangHoas.ToList());
         }
         string TaoMa()
