@@ -16,29 +16,7 @@ namespace QuanLyCuaHangTapHoa
         public Form1()
         {
             InitializeComponent();
-            customDesing();
-        }
-
-        private void customDesing()
-        {
-            panelThongKeSubMenu.Visible = false;
-        }
-
-        private void hideSubMenu()
-        {
-            if (panelThongKeSubMenu.Visible == true)
-                panelThongKeSubMenu.Visible = false;
-        }
-
-        private void ShowMenu(Panel subMenu)
-        {
-            if (subMenu.Visible == false)
-            {
-                hideSubMenu();
-                subMenu.Visible = true;
-            }
-            else
-                subMenu.Visible = false;
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -48,7 +26,7 @@ namespace QuanLyCuaHangTapHoa
             //nhv = qLCH.NhanViens.Find("admin");
             
             LogInForm lif = new LogInForm();
-            while(true)
+            while (true)
             {
                 if (lif.ShowDialog() == DialogResult.OK)
                 {
@@ -58,7 +36,7 @@ namespace QuanLyCuaHangTapHoa
                     break;
                 }
             }
-            
+
         }
         public Bitmap ResizeBitmap(Bitmap img, int width, int height)
         {
@@ -88,7 +66,11 @@ namespace QuanLyCuaHangTapHoa
         }
         private void btnHangHoa_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormMatHang());
+            if(check())
+            {
+                OpenChildForm(new FormMatHang());
+            }
+            
         }
 
         private Form activeForm = null;
@@ -105,7 +87,18 @@ namespace QuanLyCuaHangTapHoa
             childForm.BringToFront();
             childForm.Show();
         }
-
+        bool check()
+        {
+            if(nhv.MaNV == "admin")
+            {
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("bạn không đủ quyền hạn để vào chức năng này");
+                return false;
+            }
+        }
         private void iconButton1_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FormBanHang(nhv));
@@ -113,7 +106,11 @@ namespace QuanLyCuaHangTapHoa
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormNhanVien());
+            if(check())
+            {
+                OpenChildForm(new FormNhanVien());
+            }
+            
         }
 
         private void iconButton4_Click(object sender, EventArgs e)
@@ -123,17 +120,21 @@ namespace QuanLyCuaHangTapHoa
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormNhapHang());
+            OpenChildForm(new FormNhapHang(nhv));
         }
 
         private void BtNPP_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormDoiTac());
+            if(check())
+            {
+                OpenChildForm(new FormDoiTac());
+            }
+            
         }
 
         private void iconButton5_Click(object sender, EventArgs e)
         {
-            ShowMenu(panelThongKeSubMenu);
+            OpenChildForm(new FormBangThongKe());
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -145,6 +146,23 @@ namespace QuanLyCuaHangTapHoa
         {
             label1.Text = DateTime.Now.ToLongTimeString();
             label2.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            LogInForm lif = new LogInForm();
+            panelChildForm.Controls.Clear();
+            while (true)
+            {
+                if (lif.ShowDialog() == DialogResult.OK)
+                {
+                    this.nhv = lif.nv;
+                    lbTenNV.Text = nhv.TenNV;
+                    load_pbNV(nhv.MaNV);
+                    break;
+                }
+            }
         }
     }
 }

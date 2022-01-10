@@ -18,6 +18,12 @@ namespace QuanLyCuaHangTapHoa
             InitializeComponent();
         }
 
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void btThem_Click(object sender, EventArgs e)
         {
             bool key = check();
@@ -56,6 +62,12 @@ namespace QuanLyCuaHangTapHoa
             {
                 MessageBox.Show("không được để trống ô");
                 return false;
+            }
+            string chuoi = tbTLH.Text.ToLower();
+            List<LoaiHang> llh = (from lh in qLCH.LoaiHangs where lh.TenLH.ToLower().Equals(chuoi) select lh).ToList();
+            if(llh.Count > 0)
+            {
+                MessageBox.Show(" Loại Hàng đã có không thể thêm");
             }
             return true;
         }

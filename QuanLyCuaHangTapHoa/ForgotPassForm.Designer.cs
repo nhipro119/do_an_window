@@ -72,9 +72,9 @@ namespace QuanLyCuaHangTapHoa
             this.labelControl2.Location = new System.Drawing.Point(78, 154);
             this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(165, 24);
+            this.labelControl2.Size = new System.Drawing.Size(175, 24);
             this.labelControl2.TabIndex = 6;
-            this.labelControl2.Text = "Nhập địa chỉ email";
+            this.labelControl2.Text = "Nhập Mã Nhân Viên";
             this.labelControl2.Click += new System.EventHandler(this.labelControl2_Click);
             // 
             // EmailTB
@@ -290,6 +290,7 @@ namespace QuanLyCuaHangTapHoa
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "ForgotPassForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ForgotPassForm";
             this.Load += new System.EventHandler(this.ForgotPassForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.EmailTB.Properties)).EndInit();

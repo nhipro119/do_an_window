@@ -17,7 +17,11 @@ namespace QuanLyCuaHangTapHoa
         {
             InitializeComponent();
         }
-
+        
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
         private void FormThemNhanVien_Load(object sender, EventArgs e)
         {
             qLCH = new QLCH();
@@ -41,7 +45,7 @@ namespace QuanLyCuaHangTapHoa
         }
         bool check_sdt()
         {
-            if(!Int64.TryParse(tbSDT.Text,out Int64 a))
+            if(!UInt64.TryParse(tbSDT.Text,out UInt64 a))
             {
                 MessageBox.Show("số điện thoại không được chứa kí tự hoặc bỏ trống");
                 return false;
@@ -55,7 +59,7 @@ namespace QuanLyCuaHangTapHoa
         }
         bool check_cmnd()
         {
-            if(!Int64.TryParse(tbCMND.Text, out Int64 a))
+            if(!UInt64.TryParse(tbCMND.Text, out UInt64 a))
             {
                 MessageBox.Show("Chứng minh nhân dân không được chứa kí tự hoặc bỏ trống");
                 return false;
@@ -68,9 +72,9 @@ namespace QuanLyCuaHangTapHoa
             }
             return true;
         }
-        bool check_space(string value)
+        bool check_space()
         {
-            if(value.Trim() == "")
+            if(tbTenNV.Text.Trim() == "" || tbDiaChi.Text.Trim() == "" || tbEmail.Text.Trim() == "" )
             {
                 MessageBox.Show(" không được bỏ trống ô");
                 return false;
@@ -109,13 +113,11 @@ namespace QuanLyCuaHangTapHoa
         {
             bool key_sdt = check_sdt();
             bool key_cmnd = check_cmnd();
-            bool key_ten = check_space(tbTenNV.Text);
-            bool key_dc = check_space(tbDiaChi.Text);
-            bool key_email = check_space(tbEmail.Text);
+            bool key = check_space();
             bool key_mk = check_mk();
             bool key_ns = check_NgaySinh();
             bool key_img = check_img();
-            if(key_cmnd && key_ten && key_sdt && key_dc && key_email && key_mk && key_ns && key_img)
+            if(key_cmnd && key && key_sdt  && key_mk && key_ns && key_img)
             {
                 NhanVien nv = new NhanVien();
                 nv.MaNV = tbMaNV.Text;

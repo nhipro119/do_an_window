@@ -32,16 +32,29 @@ namespace QuanLyCuaHangTapHoa
         }
         bool check_SDT(string sdt)
         {
-            if(sdt.Count() == 10)
+            if(!UInt64.TryParse(sdt, out UInt64 a))
             {
-                return true;
+                MessageBox.Show("nhập sdt không đúng", "cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                return false;
+            }
+            if (sdt.Count() != 10)
+            {
+                MessageBox.Show("độ dài số điện thoại không đúng", "cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                return false;
 
             }
             else
             {
-                return false;
+                return true;
             }    
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
         private void btThem_Click(object sender, EventArgs e)
         {
             QLCH qLCH = new QLCH();
@@ -52,7 +65,7 @@ namespace QuanLyCuaHangTapHoa
             kh.DTL = 0;
             if(check_SDT(tbSDT.Text) )
             {
-                if (qLCH.KhachHangs.Find(tbSDT.Text) != null)
+                if (qLCH.KhachHangs.Find(tbSDT.Text) == null)
                 {
                     kh.SDTKH = tbSDT.Text;
                     qLCH.KhachHangs.Add(kh);
@@ -64,11 +77,9 @@ namespace QuanLyCuaHangTapHoa
                 {
                     MessageBox.Show("Khách Hàng Đã Có");
                 }
+                
             }
-            else
-            {
-                MessageBox.Show("nhập sdt không đúng", "cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-            }
+            
         }
 
         private void FormThemKhachMini_Load(object sender, EventArgs e)

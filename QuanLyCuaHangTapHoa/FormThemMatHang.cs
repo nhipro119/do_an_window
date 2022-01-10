@@ -52,7 +52,7 @@ namespace QuanLyCuaHangTapHoa
             cbLH.DisplayMember = "TenLH";
             cbLH.ValueMember = "MaLH";
             lnpp(cbLH.SelectedValue.ToString());
-            tbMaHH.Text = tao_ma();
+            textBox1.Text = tao_ma();
         }
         void lnpp(string ma)
         {
@@ -138,31 +138,49 @@ namespace QuanLyCuaHangTapHoa
                 return false;
             }
             return true;
+            
         }
-        
+        bool check_mh()
+        {
+            string tenhang = tbTenHang.Text.ToLower();
+            List<HangHoa> lhh = (from hh in qLCH.HangHoas where hh.TenHang.ToLower().Equals(tenhang) select hh).ToList();
+            if (lhh.Count() > 0)
+            {
+                MessageBox.Show("Hàng hoá đã có, khó thêm");
+                return false;
+            }
+            return true;
+
+        }
         private void btThem_Click(object sender, EventArgs e)
         {
             bool key_space = check_space();
             bool key_int = check_int();
-            if(key_int && key_space)
+            if(key_int && key_space )
             {
-                HangHoa hh = new HangHoa();
-                hh.MaHang = tbMaHH.Text;
-                hh.TenHang = tbTenHang.Text;
-                hh.MaLH = cbLH.SelectedValue.ToString();
-                hh.MaNPP = cbNPP.SelectedValue.ToString();
-                hh.GiaGoc = Int64.Parse(tbGiaVon.Text);
-                hh.DonGia = Int64.Parse(tbGiaBan.Text);
-                hh.DVT = tbDVT.Text;
-                hh.TrongLuong = int.Parse(tbTL.Text);
-                hh.SLTon = int.Parse(tbSLT.Text);
-                hh.isDelete = false;
-                qLCH.HangHoas.Add(hh);
-                qLCH.SaveChanges();
-                save_img_hh(hh.MaHang);
-                MessageBox.Show("Thêm mặt hàng thành công");
+                bool check_hh = check_mh();
+                if(check_hh)
+                {
+                    HangHoa hh = new HangHoa();
+                    hh.MaHang = textBox1.Text;
+                    hh.TenHang = tbTenHang.Text;
+                    hh.MaLH = cbLH.SelectedValue.ToString();
+                    hh.MaNPP = cbNPP.SelectedValue.ToString();
+                    hh.GiaGoc = Int64.Parse(tbGiaVon.Text);
+                    hh.DonGia = Int64.Parse(tbGiaBan.Text);
+                    hh.DVT = tbDVT.Text;
+                    hh.TrongLuong = int.Parse(tbTL.Text);
+                    hh.SLTon = int.Parse(tbSLT.Text);
+                    hh.isDelete = false;
+                    qLCH.HangHoas.Add(hh);
+                    qLCH.SaveChanges();
+                    save_img_hh(hh.MaHang);
+                    MessageBox.Show("Thêm mặt hàng thành công");
+                    this.Close();
+                }
+                
             }
-            this.Close();
+            
         }
         void save_img_hh(String mahh)
         {

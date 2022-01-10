@@ -14,11 +14,16 @@ namespace QuanLyCuaHangTapHoa
     public partial class FormNhapHang : DevExpress.XtraEditors.XtraForm
     {
         QLCH qLCH;
+        NhanVien nv;
         public FormNhapHang()
         {
             InitializeComponent();
         }
-
+        public FormNhapHang(NhanVien nv)
+        {
+            InitializeComponent();
+            this.nv = nv;
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -37,8 +42,9 @@ namespace QuanLyCuaHangTapHoa
                 string ten = qLCH.NhaPhanPhois.Find(pnh.MaNPP).TenNPP;
                 string ngay = pnh.NgayNhap.ToString();
                 string TongTien = pnh.TongTien.ToString();
+                string TenNV = pnh.NhanVien.TenNV;
                 string ma = pnh.MaPN;
-                string[] tt = { ten, ngay, TongTien, ma };
+                string[] tt = { ten, ngay, TongTien, TenNV, ma };
                 dgv_pnh.Rows.Add(tt);
             }
         }
@@ -49,13 +55,17 @@ namespace QuanLyCuaHangTapHoa
 
         private void btnNhapHang_Click(object sender, EventArgs e)
         {
-            NhapHangForm nhf = new NhapHangForm();
-            nhf.Show();
+            NhapHangForm nhf = new NhapHangForm(nv);
+            nhf.ShowDialog();
+            nhf.FormClosed += form_close;
         }
-
+        void form_close(object sender, EventArgs e)
+        {
+            load_dgv(qLCH.PhieuNhapHangs.ToList());
+        }
         private void dgv_pnh_DoubleClick(object sender, EventArgs e)
         {
-            string ma = dgv_pnh.SelectedRows[0].Cells[3].Value.ToString();
+            string ma = dgv_pnh.SelectedRows[0].Cells[4].Value.ToString();
             FormTKPNHcs ftk = new FormTKPNHcs(ma);
             ftk.Show();
         }

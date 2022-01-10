@@ -121,7 +121,14 @@ namespace QuanLyCuaHangTapHoa
             }
             else
             {
-                MessageBox.Show("Đổi mật khẩu thành công!", "Thông báo", MessageBoxButtons.OK);
+                NhanVien nv = qLCH.NhanViens.Find(EmailTB.Text);
+                if (nv != null)
+                {
+                    nv.MatKhau = PassTB.Text;
+                    qLCH.SaveChanges();
+                    MessageBox.Show("Đổi mật khẩu thành công!", "Thông báo", MessageBoxButtons.OK);
+                }
+                
             }
         }
 

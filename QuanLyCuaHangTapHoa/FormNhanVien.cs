@@ -22,10 +22,13 @@ namespace QuanLyCuaHangTapHoa
         private void btnThemNhanVien_Click(object sender, EventArgs e)
         {
             FormThemNhanVien ftnv = new FormThemNhanVien();
-            ftnv.Show();
-            ftnv.FormClosed += form_close;
+            ftnv.ShowDialog();
+            ftnv.FormClosed += Form_close;
         }
-
+        void Form_close(object sender, EventArgs e)
+        {
+            load_dgv(qLCH.NhanViens.ToList());
+        }
         private void FormNhanVien_Load(object sender, EventArgs e)
         {
             qLCH = new QLCH();
@@ -53,6 +56,16 @@ namespace QuanLyCuaHangTapHoa
                 }
                 
             }
+            lbMa.Text = dgvNhanVien.Rows[0].Cells[0].Value.ToString();
+            lbTen.Text = dgvNhanVien.Rows[0].Cells[1].Value.ToString();
+            lbCMND.Text = dgvNhanVien.Rows[0].Cells[2].Value.ToString();
+            tbSDT.Text = dgvNhanVien.Rows[0].Cells[3].Value.ToString();
+            tbEmail.Text = dgvNhanVien.Rows[0].Cells[4].Value.ToString();
+            tbDiaChi.Text = dgvNhanVien.Rows[0].Cells[5].Value.ToString();
+            string path = Application.StartupPath + "\\images\\imgnv\\" + lbMa.Text + ".png";
+            Bitmap imgnv = new Bitmap(path);
+            imgnv = ResizeBitmap(imgnv, pbNV.Width, pbNV.Height);
+            pbNV.Image = imgnv;
             dgvNhanVien.AllowUserToAddRows = false;
         }
         public Bitmap ResizeBitmap(Bitmap img, int width, int height)

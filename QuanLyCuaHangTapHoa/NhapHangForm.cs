@@ -13,9 +13,19 @@ namespace QuanLyCuaHangTapHoa
     public partial class NhapHangForm : Form
     {
         QLCH qLCH;
+        NhanVien nv;
         public NhapHangForm()
         {
             InitializeComponent();
+        }
+        public NhapHangForm(NhanVien nv)
+        {
+            this.nv = nv;
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -113,7 +123,7 @@ namespace QuanLyCuaHangTapHoa
                 pnh.MaNPP = cbNPP.SelectedValue.ToString();
                 pnh.NgayNhap = DateTime.Now;
                 pnh.TongTien = Int64.Parse(lbtt.Text);
-                pnh.MaNV = "admin";
+                pnh.MaNV = nv.MaNV;
                 qLCH.PhieuNhapHangs.Add(pnh);
                 qLCH.SaveChanges();
                 for(int i  = 0; i < dgv_PNH.Rows.Count; i++)
@@ -134,6 +144,7 @@ namespace QuanLyCuaHangTapHoa
                     qLCH.SaveChanges();
                     
                 }
+                this.Close();
             }
             else
             {

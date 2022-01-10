@@ -65,5 +65,11 @@ namespace QuanLyCuaHangTapHoa
                 MessageBox.Show("sai tài khoản");
             }
         }
+
+        private void PassForgotLLB_Click(object sender, EventArgs e)
+        {
+            ForgotPassForm fpf = new ForgotPassForm();
+            fpf.ShowDialog();
+        }
     }
 }

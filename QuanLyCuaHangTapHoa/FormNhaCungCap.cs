@@ -57,6 +57,13 @@ namespace QuanLyCuaHangTapHoa
                 MessageBox.Show(" số điện thoại không đúng độ dài");
                 return false;
             }
+            string chuoi = tbTen.Text.ToLower();
+            List<NhaPhanPhoi> lnpp = (from npp in qLCH.NhaPhanPhois where npp.TenNPP.ToLower().Equals(chuoi) select npp).ToList();
+            if(lnpp.Count > 0)
+            {
+                MessageBox.Show("nhà phần phối đã có, không thể thêm");
+                return false;
+            }
             return true;
         }
         private void FormNhaCungCap_Load(object sender, EventArgs e)

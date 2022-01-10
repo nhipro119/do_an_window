@@ -31,12 +31,16 @@ namespace QuanLyCuaHangTapHoa
                 string[] tt = { sdt, ten, email, dc, dtl.ToString() };
                 dgvKH.Rows.Add(tt);
             }
+            lbSDT.Text = dgvKH.Rows[0].Cells[0].Value.ToString();
+            lbTen.Text = dgvKH.Rows[0].Cells[1].Value.ToString();
+            tbEmail.Text = dgvKH.Rows[0].Cells[2].Value.ToString();
+            tbDC.Text = dgvKH.Rows[0].Cells[3].Value.ToString();
+            lbDTL.Text = dgvKH.Rows[0].Cells[4].Value.ToString();
         }
         private void btnThemKhachHang_Click(object sender, EventArgs e)
         {
             FormThemKhachMini ftk = new FormThemKhachMini();
-            ftk.Show();
-            ftk.FormClosed += form_close;
+            ftk.ShowDialog();
         }
         void form_close(object sender, FormClosedEventArgs e)
         {

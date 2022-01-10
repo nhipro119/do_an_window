@@ -9,12 +9,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using DevExpress.XtraPrinting.Caching;
+using DevExpress.XtraReports.UI;
+
 namespace QuanLyCuaHangTapHoa
 {
     public partial class FormBanHang : DevExpress.XtraEditors.XtraForm
     {
         QLCH qLCH;
         NhanVien nhv;
+        string hoaDonID;
         public FormBanHang()
         {
             InitializeComponent();
@@ -214,6 +218,16 @@ namespace QuanLyCuaHangTapHoa
                             else
                             {
                                 Create_HD(tbSDTKH.Text);
+                                DialogResult dial = MessageBox.Show("Bạn có muốn in hoá đơn?", "Thông báo", MessageBoxButtons.YesNo);
+                                if (dial == DialogResult.Yes)
+                                {
+                                    List<CTHD> data = (from cthd in qLCH.CTHDs where cthd.MaHD.Equals(hoaDonID) select cthd).ToList();
+                                    var storage = new MemoryDocumentStorage();
+                                    HDReport hoaDon = new HDReport(nhv.TenNV, data);
+                                    var cachedReportSource = new CachedReportSource(hoaDon, storage);
+                                    var printTool = new ReportPrintTool(cachedReportSource);
+                                    printTool.PrintDialog();
+                                }
                             }
                         }
                         else
@@ -229,6 +243,7 @@ namespace QuanLyCuaHangTapHoa
         {
             HoaDon hD = new HoaDon();
             hD.MaHD = TaoMa();
+            hoaDonID = hD.MaHD;
             hD.MaNV = nhv.MaNV;
             hD.SDTKH = SDT;
             hD.TongTien = Int64.Parse(lbTongTien.Text);

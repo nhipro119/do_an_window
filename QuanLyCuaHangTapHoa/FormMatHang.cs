@@ -59,6 +59,24 @@ namespace QuanLyCuaHangTapHoa
                     dgvHH.Rows.Add(tt);
                 }
             }
+            if(dgvHH.Rows.Count> 0)
+            {
+                lbMH.Text = dgvHH.Rows[0].Cells[0].Value.ToString();
+                lbTH.Text = dgvHH.Rows[0].Cells[1].Value.ToString();
+                lbLH.Text = dgvHH.Rows[0].Cells[2].Value.ToString();
+                lbNCC.Text = dgvHH.Rows[0].Cells[3].Value.ToString();
+                tbGG.Text = dgvHH.Rows[0].Cells[4].Value.ToString();
+                tbGB.Text = dgvHH.Rows[0].Cells[5].Value.ToString();
+                lbDVT.Text = dgvHH.Rows[0].Cells[6].Value.ToString();
+                lbTL.Text = dgvHH.Rows[0].Cells[7].Value.ToString();
+                tbSLT.Text = dgvHH.Rows[0].Cells[8].Value.ToString();
+                string path = Application.StartupPath + "\\images\\imghh\\" + lbMH.Text + ".png";
+                Bitmap img = new Bitmap(path);
+                img = ResizeBitmap(img, pbHH.Width, pbHH.Height);
+                pbHH.Image = img;
+            }
+            
+
         }
         private void FormMatHang_Load(object sender, EventArgs e)
         {

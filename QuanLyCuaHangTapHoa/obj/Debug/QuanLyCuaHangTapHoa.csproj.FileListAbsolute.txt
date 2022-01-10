@@ -356,7 +356,6 @@ E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\QuanLyCuaHangTapHoa.pdb
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\EntityFramework.dll
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\EntityFramework.SqlServer.dll
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\FontAwesome.Sharp.dll
-E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Data.v19.2.xml
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Utils.v19.2.xml
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
@@ -419,3 +418,547 @@ E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.csproj
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.csproj.CopyComplete
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.exe
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.pdb
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormBangThongKe.resources
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Charts.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Win.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.UI.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Map.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.TreeMap.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Utils.v19.2.UI.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Xpo.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.UI.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Win.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraMap.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeMap.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.CodeParser.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraDiagram.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Diagram.v19.2.Core.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraNavBar.v19.2.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Core.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Win.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.UI.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Map.v19.2.Core.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.TreeMap.v19.2.Core.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Utils.v19.2.UI.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Xpo.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.UI.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Core.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Win.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraMap.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeMap.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraDiagram.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Diagram.v19.2.Core.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraNavBar.v19.2.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\QuanLyCuaHangTapHoa.exe.config
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\QuanLyCuaHangTapHoa.exe
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\QuanLyCuaHangTapHoa.pdb
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Charts.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Win.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Data.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.UI.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Map.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.TreeMap.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Utils.v19.2.UI.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Xpo.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.UI.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Win.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraMap.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeMap.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\EntityFramework.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\EntityFramework.SqlServer.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\FontAwesome.Sharp.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.CodeParser.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraDiagram.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Diagram.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Images.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraNavBar.v19.2.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Win.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Data.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.UI.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Map.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.TreeMap.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Utils.v19.2.UI.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Xpo.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.UI.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Win.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraMap.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeMap.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\EntityFramework.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\EntityFramework.SqlServer.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraDiagram.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Diagram.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraNavBar.v19.2.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Dashboard.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Dashboard.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Dashboard.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Dashboard.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Dashboard.v19.2.Win.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Dashboard.v19.2.Win.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Dashboard.v19.2.Win.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Dashboard.v19.2.Win.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.DataAccess.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.DataAccess.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.DataAccess.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.DataAccess.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.DataAccess.v19.2.UI.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.DataAccess.v19.2.UI.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.DataAccess.v19.2.UI.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.DataAccess.v19.2.UI.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Map.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Map.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Map.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Map.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Utils.v19.2.UI.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Utils.v19.2.UI.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Utils.v19.2.UI.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Utils.v19.2.UI.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraCharts.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraCharts.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraCharts.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraCharts.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGauges.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGauges.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraReports.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraReports.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraReports.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraReports.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.csproj.AssemblyReference.cache
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.ForgotPassForm.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Form1.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormBangThongKe.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormDoiTac.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormMatHang.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormBanHang.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormKhachHang.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormNhaCungCap.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormNhanVien.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormNhapHang.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemKhachMini.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemLoaiHang.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemMatHang.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormThemNhanVien.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormTKPNHcs.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.LogInForm.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.NhapHangForm.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Properties.PopUpForm.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.Properties.Resources.resources
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.csproj.GenerateResource.cache
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.exe.licenses
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.csproj.CoreCompileInputs.cache
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.csproj.CopyComplete
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.exe
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.pdb
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.Extensions.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.xml
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+D:\c3\do_an_window-main Final\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.HDReport.resources
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraDiagram.v19.2.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Diagram.v19.2.Core.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Images.v19.2.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraNavBar.v19.2.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.Extensions.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Core.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Dashboard.v19.2.Win.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.DataAccess.v19.2.UI.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Map.v19.2.Core.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Office.v19.2.Core.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.TreeMap.v19.2.Core.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Utils.v19.2.UI.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Xpo.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.UI.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Core.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGauges.v19.2.Win.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraMap.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraTreeMap.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraDiagram.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.Diagram.v19.2.Core.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraNavBar.v19.2.xml
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Dashboard.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Dashboard.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Dashboard.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Dashboard.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Dashboard.v19.2.Win.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Dashboard.v19.2.Win.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Dashboard.v19.2.Win.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Dashboard.v19.2.Win.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.DataAccess.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.DataAccess.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.DataAccess.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.DataAccess.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.DataAccess.v19.2.UI.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.DataAccess.v19.2.UI.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.DataAccess.v19.2.UI.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.DataAccess.v19.2.UI.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Map.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Map.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Map.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Map.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Utils.v19.2.UI.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Utils.v19.2.UI.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Utils.v19.2.UI.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Utils.v19.2.UI.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraCharts.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraCharts.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraCharts.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraCharts.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGauges.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGauges.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraReports.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraReports.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraReports.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraReports.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.Diagram.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.Diagram.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.Diagram.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraNavBar.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraNavBar.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraNavBar.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormBangThongKe.resources
+E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.HDReport.resources

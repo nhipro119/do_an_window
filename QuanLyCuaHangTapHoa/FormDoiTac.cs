@@ -24,6 +24,7 @@ namespace QuanLyCuaHangTapHoa
             qLCH = new QLCH();
             load_dgvNCC(qLCH.NhaPhanPhois.ToList());
             load_cb();
+
         }
         void load_cb()
         {
@@ -56,6 +57,16 @@ namespace QuanLyCuaHangTapHoa
                 }
                 
             }
+            if(dgvNCC.Rows.Count > 0)
+            {
+                lbMa.Text = dgvNCC.Rows[0].Cells[0].Value.ToString();
+                lbTen.Text = dgvNCC.Rows[0].Cells[1].Value.ToString();
+                lbLMH.Text = dgvNCC.Rows[0].Cells[5].Value.ToString();
+                tbSDT.Text = dgvNCC.Rows[0].Cells[2].Value.ToString();
+                tbEmail.Text = dgvNCC.Rows[0].Cells[3].Value.ToString();
+                tbDC.Text = dgvNCC.Rows[0].Cells[4].Value.ToString();
+            }
+            
         }
 
         private void btnThemMatHang_Click(object sender, EventArgs e)

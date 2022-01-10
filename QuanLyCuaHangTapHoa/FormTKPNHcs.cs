@@ -13,6 +13,7 @@ namespace QuanLyCuaHangTapHoa
     public partial class FormTKPNHcs : Form
     {
         string mapnh;
+        
         public FormTKPNHcs()
         {
             InitializeComponent();
@@ -22,6 +23,7 @@ namespace QuanLyCuaHangTapHoa
             this.mapnh = mapnh;
             InitializeComponent();
         }
+        
         private void FormTKPNHcs_Load(object sender, EventArgs e)
         {
             QLCH qLCH = new QLCH();
