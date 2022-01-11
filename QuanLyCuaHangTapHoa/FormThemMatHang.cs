@@ -176,7 +176,7 @@ namespace QuanLyCuaHangTapHoa
                     qLCH.SaveChanges();
                     save_img_hh(hh.MaHang);
                     MessageBox.Show("Thêm mặt hàng thành công");
-                    this.Close();
+                    this.DialogResult = DialogResult.OK;
                 }
                 
             }

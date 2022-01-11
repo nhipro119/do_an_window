@@ -22,7 +22,7 @@ namespace QuanLyCuaHangTapHoa
         [StringLength(10)]
         public string SDTKH { get; set; }
 
-        [StringLength(25)]
+        [StringLength(50)]
         public string Email { get; set; }
 
         public int? DTL { get; set; }

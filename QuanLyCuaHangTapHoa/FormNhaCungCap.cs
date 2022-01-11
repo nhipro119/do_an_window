@@ -90,7 +90,7 @@ namespace QuanLyCuaHangTapHoa
                 qLCH.NhaPhanPhois.Add(npp);
                 qLCH.SaveChanges();
                 MessageBox.Show("thêm nhà phân phối thành công");
-                this.Close();
+                this.DialogResult = DialogResult.OK;
             }
         }
     }

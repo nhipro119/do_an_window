@@ -28,7 +28,7 @@ namespace QuanLyCuaHangTapHoa
         [StringLength(12)]
         public string SDT { get; set; }
 
-        [StringLength(25)]
+        [StringLength(50)]
         public string Email { get; set; }
 
         [StringLength(10)]

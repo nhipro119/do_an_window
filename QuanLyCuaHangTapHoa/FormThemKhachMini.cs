@@ -71,7 +71,7 @@ namespace QuanLyCuaHangTapHoa
                     qLCH.KhachHangs.Add(kh);
                     qLCH.SaveChanges();
                     MessageBox.Show("Thêm khách hàng thành công");
-                    this.Close();
+                    this.DialogResult = DialogResult.OK;
                 }
                 else
                 {

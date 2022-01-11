@@ -41,6 +41,10 @@ namespace QuanLyCuaHangTapHoa
         {
             FormThemKhachMini ftk = new FormThemKhachMini();
             ftk.ShowDialog();
+            if(ftk.DialogResult == DialogResult.OK)
+            {
+                load_dgv(qLCH.KhachHangs.ToList());
+            }
         }
         void form_close(object sender, FormClosedEventArgs e)
         {

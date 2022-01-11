@@ -177,6 +177,7 @@ namespace QuanLyCuaHangTapHoa
                         nv.isDelete = true;
                         qLCH.SaveChanges();
                         MessageBox.Show(" Xoá thành công");
+                        load_dgv(qLCH.NhanViens.ToList());
                     }
                     else
                     {

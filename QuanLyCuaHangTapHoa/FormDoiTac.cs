@@ -72,8 +72,11 @@ namespace QuanLyCuaHangTapHoa
         private void btnThemMatHang_Click(object sender, EventArgs e)
         {
             FormNhaCungCap fncc = new FormNhaCungCap();
-            fncc.Show();
-            fncc.FormClosed += form_close;
+            fncc.ShowDialog();
+            if (fncc.DialogResult == DialogResult.OK)
+            {
+                load_dgvNCC(qLCH.NhaPhanPhois.ToList());
+            }
         }
         void form_close(object sender, EventArgs e)
         {

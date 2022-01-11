@@ -26,11 +26,13 @@ namespace QuanLyCuaHangTapHoa
 
         private void btThem_Click(object sender, EventArgs e)
         {
+
+            lbMa.Text = create_mlh();
             bool key = check();
             if(key)
             {
                 LoaiHang lh = new LoaiHang();
-                lh.MaLH = tbMLH.Text;
+                lh.MaLH = lbMa.Text;
                 lh.TenLH = tbTLH.Text;
                 lh.isDelete = false;
                 qLCH.LoaiHangs.Add(lh);

@@ -145,7 +145,7 @@ namespace QuanLyCuaHangTapHoa
                     qLCH.SaveChanges();
                     
                 }
-                this.Close();
+                this.DialogResult = DialogResult.OK;
             }
             else
             {

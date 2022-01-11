@@ -57,7 +57,10 @@ namespace QuanLyCuaHangTapHoa
         {
             NhapHangForm nhf = new NhapHangForm(nv);
             nhf.ShowDialog();
-            nhf.FormClosed += form_close;
+            if(nhf.DialogResult == DialogResult.OK)
+            {
+                load_dgv(qLCH.PhieuNhapHangs.ToList());
+            }
         }
         void form_close(object sender, EventArgs e)
         {
