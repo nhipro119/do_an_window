@@ -206,6 +206,10 @@ namespace QuanLyCuaHangTapHoa
         {
             FormThemLoaiHang ftlh = new FormThemLoaiHang();
             ftlh.ShowDialog() ;
+            if(ftlh.DialogResult == DialogResult.OK)
+            {
+                load_cbLMH();
+            }
         }
         void TimKiemMH()
         {
