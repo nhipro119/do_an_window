@@ -274,6 +274,7 @@ namespace QuanLyCuaHangTapHoa
             this.hyperlinkLabelControl1.Size = new System.Drawing.Size(155, 16);
             this.hyperlinkLabelControl1.TabIndex = 15;
             this.hyperlinkLabelControl1.Text = "Quay lại form đăng nhập!";
+            this.hyperlinkLabelControl1.Click += new System.EventHandler(this.hyperlinkLabelControl1_Click);
             // 
             // ForgotPassForm
             // 

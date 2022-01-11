@@ -962,3 +962,12 @@ E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraNavBar.v
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.FormBangThongKe.resources
 E:\C#\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.HDReport.resources
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraCharts.v19.2.Extensions.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.xml
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\de\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\es\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ja\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\bin\Debug\ru\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\PraKo\Downloads\do_an_window-main\QuanLyCuaHangTapHoa\obj\Debug\QuanLyCuaHangTapHoa.HDReport.resources

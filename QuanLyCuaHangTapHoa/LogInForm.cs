@@ -71,5 +71,15 @@ namespace QuanLyCuaHangTapHoa
             ForgotPassForm fpf = new ForgotPassForm();
             fpf.ShowDialog();
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+           DialogResult rs =  MessageBox.Show("bạn có muốn thoát ứng dụng", "thông báo", MessageBoxButtons.YesNo);
+            if(rs == DialogResult.Yes)
+            {
+                System.Windows.Forms.Application.Exit();
+                
+            }
+        }
     }
 }

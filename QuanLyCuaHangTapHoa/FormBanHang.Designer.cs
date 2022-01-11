@@ -44,6 +44,10 @@ namespace QuanLyCuaHangTapHoa
             this.Tong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Xoa = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.tbTienNhan = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.tbSDTKH = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -59,10 +63,6 @@ namespace QuanLyCuaHangTapHoa
             this.panel2 = new System.Windows.Forms.Panel();
             this.tbTimKiem = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tbSDTKH = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.tbTienNhan = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHD)).BeginInit();
@@ -85,6 +85,7 @@ namespace QuanLyCuaHangTapHoa
             // LvMatHang
             // 
             this.LvMatHang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LvMatHang.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LvMatHang.HideSelection = false;
             this.LvMatHang.LargeImageList = this.imglMH;
             this.LvMatHang.Location = new System.Drawing.Point(0, 48);
@@ -113,6 +114,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.dgvHD.AllowUserToAddRows = false;
             this.dgvHD.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvHD.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.dgvHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHD.ColumnHeadersVisible = false;
             this.dgvHD.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -132,6 +134,7 @@ namespace QuanLyCuaHangTapHoa
             this.dgvHD.Size = new System.Drawing.Size(700, 421);
             this.dgvHD.TabIndex = 2;
             this.dgvHD.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHD_CellClick);
+            this.dgvHD.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHD_CellContentClick);
             this.dgvHD.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHD_CellEndEdit);
             // 
             // ma
@@ -212,6 +215,44 @@ namespace QuanLyCuaHangTapHoa
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(331, 640);
             this.panel3.TabIndex = 9;
+            // 
+            // tbTienNhan
+            // 
+            this.tbTienNhan.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbTienNhan.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbTienNhan.Location = new System.Drawing.Point(145, 256);
+            this.tbTienNhan.Name = "tbTienNhan";
+            this.tbTienNhan.Size = new System.Drawing.Size(133, 20);
+            this.tbTienNhan.TabIndex = 20;
+            this.tbTienNhan.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(142, 264);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(139, 13);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "______________________";
+            // 
+            // tbSDTKH
+            // 
+            this.tbSDTKH.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbSDTKH.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSDTKH.Location = new System.Drawing.Point(60, 69);
+            this.tbSDTKH.Name = "tbSDTKH";
+            this.tbSDTKH.Size = new System.Drawing.Size(236, 20);
+            this.tbSDTKH.TabIndex = 18;
+            this.tbSDTKH.TextChanged += new System.EventHandler(this.tbSDTKH_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(57, 80);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(241, 13);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "_______________________________________";
             // 
             // iconButton2
             // 
@@ -372,44 +413,6 @@ namespace QuanLyCuaHangTapHoa
             this.tbTimKiem.Size = new System.Drawing.Size(555, 35);
             this.tbTimKiem.TabIndex = 1;
             this.tbTimKiem.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(57, 80);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(241, 13);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "_______________________________________";
-            // 
-            // tbSDTKH
-            // 
-            this.tbSDTKH.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbSDTKH.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSDTKH.Location = new System.Drawing.Point(60, 69);
-            this.tbSDTKH.Name = "tbSDTKH";
-            this.tbSDTKH.Size = new System.Drawing.Size(236, 20);
-            this.tbSDTKH.TabIndex = 18;
-            this.tbSDTKH.TextChanged += new System.EventHandler(this.tbSDTKH_TextChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(142, 264);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(139, 13);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "______________________";
-            // 
-            // tbTienNhan
-            // 
-            this.tbTienNhan.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbTienNhan.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTienNhan.Location = new System.Drawing.Point(145, 256);
-            this.tbTienNhan.Name = "tbTienNhan";
-            this.tbTienNhan.Size = new System.Drawing.Size(133, 20);
-            this.tbTienNhan.TabIndex = 20;
-            this.tbTienNhan.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // FormBanHang
             // 

@@ -47,7 +47,7 @@ namespace QuanLyCuaHangTapHoa
                 MessageBox.Show("không được bỏ trống ô");
                 return false;
             }
-            else if(UInt64.TryParse(tbSDT.Text, out UInt64 a))
+            else if(!UInt64.TryParse(tbSDT.Text, out UInt64 a))
             {
                 MessageBox.Show(" số điện thoại không đúng định dạng");
                 return false;

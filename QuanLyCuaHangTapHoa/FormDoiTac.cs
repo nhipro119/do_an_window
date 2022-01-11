@@ -22,9 +22,9 @@ namespace QuanLyCuaHangTapHoa
         private void FormDoiTac_Load(object sender, EventArgs e)
         {
             qLCH = new QLCH();
-            load_dgvNCC(qLCH.NhaPhanPhois.ToList());
+            
             load_cb();
-
+            TimKiem();
         }
         void load_cb()
         {

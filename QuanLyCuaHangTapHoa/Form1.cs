@@ -26,16 +26,22 @@ namespace QuanLyCuaHangTapHoa
             //nhv = qLCH.NhanViens.Find("admin");
             
             LogInForm lif = new LogInForm();
-            while (true)
-            {
+            
+            
                 if (lif.ShowDialog() == DialogResult.OK)
                 {
                     this.nhv = lif.nv;
                     lbTenNV.Text = nhv.TenNV;
                     load_pbNV(nhv.MaNV);
-                    break;
+                    button1.Visible = true;
+                    
                 }
-            }
+                else if(lif.ShowDialog() == DialogResult.Cancel)
+                {
+
+                    this.Close();
+                }
+            
 
         }
         public Bitmap ResizeBitmap(Bitmap img, int width, int height)
@@ -150,19 +156,22 @@ namespace QuanLyCuaHangTapHoa
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
+            button1.Visible = false;
+            pbNV.Image = null;
+            lbTenNV.Text = "";
             LogInForm lif = new LogInForm();
             panelChildForm.Controls.Clear();
-            while (true)
+            
+            if (lif.ShowDialog() == DialogResult.OK)
             {
-                if (lif.ShowDialog() == DialogResult.OK)
-                {
-                    this.nhv = lif.nv;
-                    lbTenNV.Text = nhv.TenNV;
-                    load_pbNV(nhv.MaNV);
-                    break;
-                }
+                this.nhv = lif.nv;
+                lbTenNV.Text = nhv.TenNV;
+                load_pbNV(nhv.MaNV);
+                button1.Visible = true;
+                    
             }
+            
         }
     }
 }

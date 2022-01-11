@@ -49,10 +49,9 @@ namespace QuanLyCuaHangTapHoa
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(247, 16);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(329, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.Size = new System.Drawing.Size(96, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã Loại Hàng";
             this.label1.Visible = false;
@@ -60,19 +59,18 @@ namespace QuanLyCuaHangTapHoa
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(247, 44);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(329, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 13);
+            this.label2.Size = new System.Drawing.Size(102, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tên Loại Hàng";
             // 
             // btThem
             // 
-            this.btThem.Location = new System.Drawing.Point(250, 147);
-            this.btThem.Margin = new System.Windows.Forms.Padding(2);
+            this.btThem.Location = new System.Drawing.Point(333, 181);
+            this.btThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btThem.Name = "btThem";
-            this.btThem.Size = new System.Drawing.Size(84, 37);
+            this.btThem.Size = new System.Drawing.Size(112, 46);
             this.btThem.TabIndex = 2;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
@@ -87,14 +85,14 @@ namespace QuanLyCuaHangTapHoa
             this.dgvLH.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Ma,
             this.Ten});
-            this.dgvLH.Location = new System.Drawing.Point(11, 32);
-            this.dgvLH.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvLH.Location = new System.Drawing.Point(15, 39);
+            this.dgvLH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvLH.Name = "dgvLH";
             this.dgvLH.RowHeadersVisible = false;
             this.dgvLH.RowHeadersWidth = 51;
             this.dgvLH.RowTemplate.Height = 24;
             this.dgvLH.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLH.Size = new System.Drawing.Size(232, 340);
+            this.dgvLH.Size = new System.Drawing.Size(309, 418);
             this.dgvLH.TabIndex = 3;
             this.dgvLH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLH_CellClick);
             // 
@@ -112,10 +110,10 @@ namespace QuanLyCuaHangTapHoa
             // 
             // tbTimKiem
             // 
-            this.tbTimKiem.Location = new System.Drawing.Point(11, 9);
-            this.tbTimKiem.Margin = new System.Windows.Forms.Padding(2);
+            this.tbTimKiem.Location = new System.Drawing.Point(15, 11);
+            this.tbTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbTimKiem.Name = "tbTimKiem";
-            this.tbTimKiem.Size = new System.Drawing.Size(233, 20);
+            this.tbTimKiem.Size = new System.Drawing.Size(309, 22);
             this.tbTimKiem.TabIndex = 4;
             this.tbTimKiem.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -124,10 +122,10 @@ namespace QuanLyCuaHangTapHoa
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton1.IconColor = System.Drawing.Color.Black;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.Location = new System.Drawing.Point(343, 147);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.iconButton1.Location = new System.Drawing.Point(457, 181);
+            this.iconButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(80, 37);
+            this.iconButton1.Size = new System.Drawing.Size(107, 46);
             this.iconButton1.TabIndex = 5;
             this.iconButton1.Text = "Xoá";
             this.iconButton1.UseVisualStyleBackColor = true;
@@ -135,10 +133,10 @@ namespace QuanLyCuaHangTapHoa
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(328, 335);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThoat.Location = new System.Drawing.Point(437, 412);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(93, 37);
+            this.btnThoat.Size = new System.Drawing.Size(124, 46);
             this.btnThoat.TabIndex = 2;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -147,9 +145,10 @@ namespace QuanLyCuaHangTapHoa
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(327, 48);
+            this.label3.Location = new System.Drawing.Point(436, 59);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 13);
+            this.label3.Size = new System.Drawing.Size(136, 17);
             this.label3.TabIndex = 6;
             this.label3.Text = "________________";
             // 
@@ -157,17 +156,19 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.tbTLH.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbTLH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTLH.Location = new System.Drawing.Point(330, 44);
+            this.tbTLH.Location = new System.Drawing.Point(440, 54);
+            this.tbTLH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbTLH.Name = "tbTLH";
-            this.tbTLH.Size = new System.Drawing.Size(100, 15);
+            this.tbTLH.Size = new System.Drawing.Size(133, 19);
             this.tbTLH.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(327, 20);
+            this.label4.Location = new System.Drawing.Point(436, 25);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 13);
+            this.label4.Size = new System.Drawing.Size(136, 17);
             this.label4.TabIndex = 6;
             this.label4.Text = "________________";
             this.label4.Visible = false;
@@ -175,29 +176,32 @@ namespace QuanLyCuaHangTapHoa
             // tbMLH
             // 
             this.tbMLH.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbMLH.Enabled = false;
             this.tbMLH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbMLH.Location = new System.Drawing.Point(330, 16);
+            this.tbMLH.Location = new System.Drawing.Point(440, 20);
+            this.tbMLH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbMLH.Name = "tbMLH";
-            this.tbMLH.Size = new System.Drawing.Size(100, 15);
+            this.tbMLH.Size = new System.Drawing.Size(133, 19);
             this.tbMLH.TabIndex = 7;
             this.tbMLH.Visible = false;
             // 
             // lbMa
             // 
             this.lbMa.AutoSize = true;
-            this.lbMa.Location = new System.Drawing.Point(262, 235);
+            this.lbMa.Location = new System.Drawing.Point(349, 289);
+            this.lbMa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbMa.Name = "lbMa";
-            this.lbMa.Size = new System.Drawing.Size(35, 13);
+            this.lbMa.Size = new System.Drawing.Size(46, 17);
             this.lbMa.TabIndex = 8;
             this.lbMa.Text = "label5";
             this.lbMa.Visible = false;
             // 
             // FormThemLoaiHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(432, 383);
+            this.ClientSize = new System.Drawing.Size(576, 471);
             this.Controls.Add(this.lbMa);
             this.Controls.Add(this.tbMLH);
             this.Controls.Add(this.label4);
@@ -211,7 +215,7 @@ namespace QuanLyCuaHangTapHoa
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormThemLoaiHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormThemLoaiHang";

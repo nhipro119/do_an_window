@@ -411,5 +411,10 @@ namespace QuanLyCuaHangTapHoa
             dgvHD.Rows[row].Cells[6].Value = tong.ToString();
             TinhTongTien();
         }
+
+        private void dgvHD_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

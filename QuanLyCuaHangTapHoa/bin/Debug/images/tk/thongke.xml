@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <SqlDataSource Name="SQL Data Source 1" ComponentName="dashboardSqlDataSource1">
+      <Connection Name="localhost_QLBH_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="DESKTOP-HGKH7O2" />
+          <Parameter Name="database" Value="QLBH" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="HoaDon">
+        <Tables>
+          <Table Name="HoaDon" X="30" Y="30" Width="125" Height="168" />
+          <Table Name="CTHD" X="185" Y="30" Width="125" Height="132" />
+          <Table Name="HangHoa" X="340" Y="30" Width="125" Height="240" />
+          <Table Name="KhachHang" X="495" Y="30" Width="125" Height="150" />
+          <Table Name="NhanVien" X="650" Y="30" Width="125" Height="240" />
+          <Table Name="LoaiHang" X="805" Y="30" Width="125" Height="114" />
+          <Relation Type="Inner" Parent="HoaDon" Nested="CTHD">
+            <KeyColumn Parent="MaHD" Nested="MaHD" />
+          </Relation>
+          <Relation Type="Inner" Parent="CTHD" Nested="HangHoa">
+            <KeyColumn Parent="MaHH" Nested="MaHang" />
+          </Relation>
+          <Relation Type="Inner" Parent="HoaDon" Nested="KhachHang">
+            <KeyColumn Parent="SDTKH" Nested="SDTKH" />
+          </Relation>
+          <Relation Type="Inner" Parent="HoaDon" Nested="NhanVien">
+            <KeyColumn Parent="MaNV" Nested="MaNV" />
+          </Relation>
+          <Relation Type="Inner" Parent="HangHoa" Nested="LoaiHang">
+            <KeyColumn Parent="MaLH" Nested="MaLH" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <AllColumns Table="HoaDon" />
+          <AllColumns Table="CTHD" />
+          <AllColumns Table="HangHoa" />
+          <AllColumns Table="KhachHang" />
+          <AllColumns Table="NhanVien" />
+          <AllColumns Table="LoaiHang" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 1">
+          <View Name="HoaDon">
+            <Field Name="MaHD" Type="String" />
+            <Field Name="NgayLap" Type="DateTime" />
+            <Field Name="TongTien" Type="Int64" />
+            <Field Name="MaNV" Type="String" />
+            <Field Name="SDTKH" Type="String" />
+            <Field Name="TienKhuyenMai" Type="Int64" />
+            <Field Name="CTHD_MaHD" Type="String" />
+            <Field Name="MaHH" Type="String" />
+            <Field Name="SoLuong" Type="Int32" />
+            <Field Name="DonGIa" Type="Int64" />
+            <Field Name="MaHang" Type="String" />
+            <Field Name="TenHang" Type="String" />
+            <Field Name="SLTon" Type="Int32" />
+            <Field Name="DVT" Type="String" />
+            <Field Name="DonGia" Type="Int64" />
+            <Field Name="MaLH" Type="String" />
+            <Field Name="isDelete" Type="Boolean" />
+            <Field Name="GiaGoc" Type="Int64" />
+            <Field Name="MaNPP" Type="String" />
+            <Field Name="TrongLuong" Type="Int32" />
+            <Field Name="TenKH" Type="String" />
+            <Field Name="KhachHang_SDTKH" Type="String" />
+            <Field Name="Email" Type="String" />
+            <Field Name="DTL" Type="Int32" />
+            <Field Name="DiaChi" Type="String" />
+            <Field Name="NhanVien_MaNV" Type="String" />
+            <Field Name="TenNV" Type="String" />
+            <Field Name="SDT" Type="String" />
+            <Field Name="NhanVien_Email" Type="String" />
+            <Field Name="CMND" Type="String" />
+            <Field Name="NgaySinh" Type="DateTime" />
+            <Field Name="ChucVu" Type="String" />
+            <Field Name="NhanVien_isDelete" Type="Boolean" />
+            <Field Name="NhanVien_DiaChi" Type="String" />
+            <Field Name="MatKhau" Type="String" />
+            <Field Name="LoaiHang_MaLH" Type="String" />
+            <Field Name="TenLH" Type="String" />
+            <Field Name="LoaiHang_isDelete" Type="Boolean" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem2" Name="" ParentContainer="dashboardItemGroup1" DataSource="dashboardSqlDataSource1" DataMember="HoaDon">
+      <DataItems>
+        <Measure DataMember="TongTien" DefaultId="DataItem0" />
+        <Dimension DataMember="NgayLap" DateTimeGroupInterval="Month" ColoringMode="Hue" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple Name="Tổng Tiền">
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Chart ComponentName="chartDashboardItem3" Name="Số lượng mặt hàng nhân viên bán được" DataSource="dashboardSqlDataSource1" DataMember="HoaDon">
+      <DataItems>
+        <Measure DataMember="SoLuong" DefaultId="DataItem0" />
+        <Dimension DataMember="TenNV" ColoringMode="Hue" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple Name="Số Lượng">
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <TreeView ComponentName="treeViewDashboardItem1" Name="" ParentContainer="dashboardItemGroup1" DataSource="dashboardSqlDataSource1" DataMember="HoaDon">
+      <DataItems>
+        <Dimension DataMember="NgayLap" DateTimeGroupInterval="Month" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </TreeView>
+    <Chart ComponentName="chartDashboardItem1" Name="" ParentContainer="dashboardItemGroup2" DataSource="dashboardSqlDataSource1" DataMember="HoaDon">
+      <DataItems>
+        <Dimension DataMember="TenHang" ColoringMode="Hue" TopNCount="10" DefaultId="DataItem1" />
+        <Measure DataMember="SoLuong" DefaultId="DataItem0" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple Name="Số Lượng">
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <TreeView ComponentName="treeViewDashboardItem2" Name="" ParentContainer="dashboardItemGroup2" DataSource="dashboardSqlDataSource1" DataMember="HoaDon">
+      <DataItems>
+        <Dimension DataMember="NgayLap" DateTimeGroupInterval="DayMonthYear" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </TreeView>
+  </Items>
+  <Groups>
+    <Group ComponentName="dashboardItemGroup1" Name="Doanh thu của cửa hàng" />
+    <Group ComponentName="dashboardItemGroup2" Name="Thống kê số lượng mặt hàng đã bán" />
+  </Groups>
+  <LayoutTree>
+    <LayoutGroup Weight="100">
+      <LayoutGroup DashboardItem="dashboardItemGroup1" Weight="50">
+        <LayoutItem DashboardItem="treeViewDashboardItem1" Weight="18.918918918918919" />
+        <LayoutItem DashboardItem="chartDashboardItem2" Weight="81.081081081081081" />
+      </LayoutGroup>
+      <LayoutGroup Orientation="Vertical" Weight="50">
+        <LayoutGroup DashboardItem="dashboardItemGroup2" Weight="50">
+          <LayoutItem DashboardItem="treeViewDashboardItem2" Weight="15.54054054054054" />
+          <LayoutItem DashboardItem="chartDashboardItem1" Weight="84.459459459459453" />
+        </LayoutGroup>
+        <LayoutItem DashboardItem="chartDashboardItem3" Weight="50" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

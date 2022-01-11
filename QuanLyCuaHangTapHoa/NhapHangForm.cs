@@ -20,6 +20,7 @@ namespace QuanLyCuaHangTapHoa
         }
         public NhapHangForm(NhanVien nv)
         {
+            InitializeComponent();
             this.nv = nv;
         }
 

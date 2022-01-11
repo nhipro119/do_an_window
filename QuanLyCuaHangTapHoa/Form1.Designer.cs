@@ -35,6 +35,7 @@ namespace QuanLyCuaHangTapHoa
             this.label1 = new System.Windows.Forms.Label();
             this.lbTenNV = new System.Windows.Forms.Label();
             this.pbNV = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.ChucNang = new System.Windows.Forms.Panel();
             this.iconButton5 = new FontAwesome.Sharp.IconButton();
             this.BtNPP = new FontAwesome.Sharp.IconButton();
@@ -45,7 +46,6 @@ namespace QuanLyCuaHangTapHoa
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelChildForm = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbNV)).BeginInit();
             this.ChucNang.SuspendLayout();
@@ -54,7 +54,6 @@ namespace QuanLyCuaHangTapHoa
             // panel2
             // 
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.lbTenNV);
@@ -63,7 +62,7 @@ namespace QuanLyCuaHangTapHoa
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(199, 311);
+            this.panel2.Size = new System.Drawing.Size(211, 311);
             this.panel2.TabIndex = 1;
             // 
             // label2
@@ -92,27 +91,43 @@ namespace QuanLyCuaHangTapHoa
             // 
             // lbTenNV
             // 
-            this.lbTenNV.AutoSize = true;
             this.lbTenNV.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTenNV.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lbTenNV.Location = new System.Drawing.Point(0, 91);
+            this.lbTenNV.Location = new System.Drawing.Point(0, 86);
             this.lbTenNV.Name = "lbTenNV";
-            this.lbTenNV.Size = new System.Drawing.Size(62, 21);
+            this.lbTenNV.Size = new System.Drawing.Size(211, 25);
             this.lbTenNV.TabIndex = 1;
-            this.lbTenNV.Text = "label1";
+            this.lbTenNV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pbNV
             // 
-            this.pbNV.Location = new System.Drawing.Point(0, 157);
+            this.pbNV.Location = new System.Drawing.Point(0, 113);
             this.pbNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbNV.Name = "pbNV";
-            this.pbNV.Size = new System.Drawing.Size(199, 187);
+            this.pbNV.Size = new System.Drawing.Size(211, 198);
             this.pbNV.TabIndex = 1;
             this.pbNV.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(0, 993);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(211, 69);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Đăng xuất";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ChucNang
             // 
             this.ChucNang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(255)))));
+            this.ChucNang.Controls.Add(this.button1);
             this.ChucNang.Controls.Add(this.iconButton5);
             this.ChucNang.Controls.Add(this.BtNPP);
             this.ChucNang.Controls.Add(this.iconButton4);
@@ -125,7 +140,7 @@ namespace QuanLyCuaHangTapHoa
             this.ChucNang.Location = new System.Drawing.Point(0, 0);
             this.ChucNang.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ChucNang.Name = "ChucNang";
-            this.ChucNang.Size = new System.Drawing.Size(199, 1062);
+            this.ChucNang.Size = new System.Drawing.Size(211, 1062);
             this.ChucNang.TabIndex = 0;
             // 
             // iconButton5
@@ -142,7 +157,7 @@ namespace QuanLyCuaHangTapHoa
             this.iconButton5.Location = new System.Drawing.Point(0, 1055);
             this.iconButton5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(199, 124);
+            this.iconButton5.Size = new System.Drawing.Size(211, 124);
             this.iconButton5.TabIndex = 6;
             this.iconButton5.Text = "Thống Kê";
             this.iconButton5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -163,7 +178,7 @@ namespace QuanLyCuaHangTapHoa
             this.BtNPP.Location = new System.Drawing.Point(0, 931);
             this.BtNPP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtNPP.Name = "BtNPP";
-            this.BtNPP.Size = new System.Drawing.Size(199, 124);
+            this.BtNPP.Size = new System.Drawing.Size(211, 124);
             this.BtNPP.TabIndex = 1;
             this.BtNPP.Text = "Nhà Phân Phối";
             this.BtNPP.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -184,7 +199,7 @@ namespace QuanLyCuaHangTapHoa
             this.iconButton4.Location = new System.Drawing.Point(0, 807);
             this.iconButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(199, 124);
+            this.iconButton4.Size = new System.Drawing.Size(211, 124);
             this.iconButton4.TabIndex = 5;
             this.iconButton4.Text = "Khách Hàng";
             this.iconButton4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -205,7 +220,7 @@ namespace QuanLyCuaHangTapHoa
             this.iconButton3.Location = new System.Drawing.Point(0, 683);
             this.iconButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(199, 124);
+            this.iconButton3.Size = new System.Drawing.Size(211, 124);
             this.iconButton3.TabIndex = 4;
             this.iconButton3.Text = "Nhân Viên";
             this.iconButton3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -226,7 +241,7 @@ namespace QuanLyCuaHangTapHoa
             this.iconButton2.Location = new System.Drawing.Point(0, 559);
             this.iconButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(199, 124);
+            this.iconButton2.Size = new System.Drawing.Size(211, 124);
             this.iconButton2.TabIndex = 3;
             this.iconButton2.Text = "Nhập Hàng";
             this.iconButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -247,7 +262,7 @@ namespace QuanLyCuaHangTapHoa
             this.btnHangHoa.Location = new System.Drawing.Point(0, 435);
             this.btnHangHoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnHangHoa.Name = "btnHangHoa";
-            this.btnHangHoa.Size = new System.Drawing.Size(199, 124);
+            this.btnHangHoa.Size = new System.Drawing.Size(211, 124);
             this.btnHangHoa.TabIndex = 2;
             this.btnHangHoa.Text = "Hàng Hóa";
             this.btnHangHoa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -268,7 +283,7 @@ namespace QuanLyCuaHangTapHoa
             this.iconButton1.Location = new System.Drawing.Point(0, 311);
             this.iconButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(199, 124);
+            this.iconButton1.Size = new System.Drawing.Size(211, 124);
             this.iconButton1.TabIndex = 1;
             this.iconButton1.Text = "Bán Hàng";
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -285,21 +300,11 @@ namespace QuanLyCuaHangTapHoa
             this.panelChildForm.BackgroundImage = global::QuanLyCuaHangTapHoa.Properties.Resources.capeo;
             this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(199, 0);
+            this.panelChildForm.Location = new System.Drawing.Point(211, 0);
             this.panelChildForm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(1552, 1062);
+            this.panelChildForm.Size = new System.Drawing.Size(1540, 1062);
             this.panelChildForm.TabIndex = 3;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 129);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Đăng xuất";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -308,10 +313,12 @@ namespace QuanLyCuaHangTapHoa
             this.ClientSize = new System.Drawing.Size(1751, 1062);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.ChucNang);
+            this.DoubleBuffered = true;
+            this.IconOptions.Image = global::QuanLyCuaHangTapHoa.Properties.Resources.capeo;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Phần Mềm Bán Hàng";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);

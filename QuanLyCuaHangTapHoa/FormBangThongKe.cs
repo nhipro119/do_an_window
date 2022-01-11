@@ -15,7 +15,15 @@ namespace QuanLyCuaHangTapHoa
     {
         public FormBangThongKe()
         {
+            string path = Application.StartupPath + "\\images\\thongke\\thongke.xml";
+            
             InitializeComponent();
+            this.dashboardViewer1.DashboardSource = new System.Uri(path, System.UriKind.Absolute);
+        }
+
+        private void FormBangThongKe_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

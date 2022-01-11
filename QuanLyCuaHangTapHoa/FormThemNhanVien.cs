@@ -132,7 +132,7 @@ namespace QuanLyCuaHangTapHoa
                 qLCH.NhanViens.Add(nv);
                 qLCH.SaveChanges();
                 MessageBox.Show(" thêm nhân viên thành công");
-                this.Close();
+                this.DialogResult = DialogResult.OK;
             }
         }
         void save_img_nv( String manv)

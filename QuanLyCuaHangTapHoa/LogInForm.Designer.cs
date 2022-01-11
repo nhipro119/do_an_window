@@ -38,6 +38,7 @@ namespace QuanLyCuaHangTapHoa
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.PassForgotLLB = new DevExpress.XtraEditors.HyperlinkLabelControl();
             this.checkPass = new DevExpress.XtraEditors.CheckEdit();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.AccountTB.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PassTB.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkPass.Properties)).BeginInit();
@@ -152,11 +153,24 @@ namespace QuanLyCuaHangTapHoa
             this.checkPass.TabIndex = 11;
             this.checkPass.CheckedChanged += new System.EventHandler(this.checkEdit1_CheckedChanged);
             // 
+            // iconButton1
+            // 
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Xbox;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.Location = new System.Drawing.Point(540, 12);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(55, 43);
+            this.iconButton1.TabIndex = 12;
+            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
             // LogInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(607, 370);
+            this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.checkPass);
             this.Controls.Add(this.PassForgotLLB);
             this.Controls.Add(this.labelControl4);
@@ -191,5 +205,6 @@ namespace QuanLyCuaHangTapHoa
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.HyperlinkLabelControl PassForgotLLB;
         private DevExpress.XtraEditors.CheckEdit checkPass;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

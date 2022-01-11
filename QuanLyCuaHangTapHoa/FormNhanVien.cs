@@ -23,6 +23,10 @@ namespace QuanLyCuaHangTapHoa
         {
             FormThemNhanVien ftnv = new FormThemNhanVien();
             ftnv.ShowDialog();
+            if(ftnv.DialogResult == DialogResult.OK)
+            {
+                load_dgv(qLCH.NhanViens.ToList());
+            }
             ftnv.FormClosed += Form_close;
         }
         void Form_close(object sender, EventArgs e)
@@ -34,10 +38,7 @@ namespace QuanLyCuaHangTapHoa
             qLCH = new QLCH();
             load_dgv(qLCH.NhanViens.ToList());
         }
-        void form_close(object sender, FormClosedEventArgs e)
-        {
-            load_dgv(qLCH.NhanViens.ToList());
-        }
+        
         void load_dgv(List<NhanVien> lnv)
         {
             dgvNhanVien.Rows.Clear();

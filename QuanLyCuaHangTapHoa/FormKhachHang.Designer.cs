@@ -37,6 +37,12 @@ namespace QuanLyCuaHangTapHoa
             this.DC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DTL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tbDC = new System.Windows.Forms.TextBox();
+            this.tbEmail = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btSua = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,12 +56,6 @@ namespace QuanLyCuaHangTapHoa
             this.panel5 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnThemKhachHang = new FontAwesome.Sharp.IconButton();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.tbEmail = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.tbDC = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKH)).BeginInit();
             this.panel1.SuspendLayout();
@@ -149,6 +149,64 @@ namespace QuanLyCuaHangTapHoa
             this.panel1.Size = new System.Drawing.Size(331, 640);
             this.panel1.TabIndex = 12;
             // 
+            // tbDC
+            // 
+            this.tbDC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbDC.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbDC.Location = new System.Drawing.Point(123, 210);
+            this.tbDC.Name = "tbDC";
+            this.tbDC.Size = new System.Drawing.Size(187, 19);
+            this.tbDC.TabIndex = 7;
+            // 
+            // tbEmail
+            // 
+            this.tbEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbEmail.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbEmail.Location = new System.Drawing.Point(123, 170);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(187, 19);
+            this.tbEmail.TabIndex = 7;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.DarkGray;
+            this.label9.Location = new System.Drawing.Point(6, 228);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(307, 13);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "__________________________________________________";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.DarkGray;
+            this.label8.Location = new System.Drawing.Point(8, 188);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(307, 13);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "__________________________________________________";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.DarkGray;
+            this.label7.Location = new System.Drawing.Point(6, 148);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(307, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "__________________________________________________";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.DarkGray;
+            this.label11.Location = new System.Drawing.Point(6, 108);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(307, 13);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "__________________________________________________";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -180,11 +238,11 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(49, 250);
+            this.label6.Location = new System.Drawing.Point(8, 250);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 18);
+            this.label6.Size = new System.Drawing.Size(91, 18);
             this.label6.TabIndex = 1;
-            this.label6.Text = "DTL";
+            this.label6.Text = "Điểm tích lũy";
             // 
             // lbTen
             // 
@@ -200,7 +258,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.lbSDT.AutoSize = true;
             this.lbSDT.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSDT.Location = new System.Drawing.Point(118, 90);
+            this.lbSDT.Location = new System.Drawing.Point(120, 90);
             this.lbSDT.Name = "lbSDT";
             this.lbSDT.Size = new System.Drawing.Size(44, 18);
             this.lbSDT.TabIndex = 1;
@@ -220,7 +278,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(47, 90);
+            this.label2.Location = new System.Drawing.Point(6, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 18);
             this.label2.TabIndex = 1;
@@ -230,7 +288,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(49, 210);
+            this.label5.Location = new System.Drawing.Point(8, 210);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 18);
             this.label5.TabIndex = 1;
@@ -240,7 +298,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(49, 130);
+            this.label3.Location = new System.Drawing.Point(8, 130);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 18);
             this.label3.TabIndex = 1;
@@ -250,7 +308,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(49, 170);
+            this.label4.Location = new System.Drawing.Point(8, 170);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 18);
             this.label4.TabIndex = 1;
@@ -296,64 +354,6 @@ namespace QuanLyCuaHangTapHoa
             this.btnThemKhachHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThemKhachHang.UseVisualStyleBackColor = false;
             this.btnThemKhachHang.Click += new System.EventHandler(this.btnThemKhachHang_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.Color.DarkGray;
-            this.label11.Location = new System.Drawing.Point(47, 108);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(259, 13);
-            this.label11.TabIndex = 6;
-            this.label11.Text = "__________________________________________";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.DarkGray;
-            this.label7.Location = new System.Drawing.Point(47, 148);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(259, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "__________________________________________";
-            // 
-            // tbEmail
-            // 
-            this.tbEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbEmail.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbEmail.Location = new System.Drawing.Point(119, 170);
-            this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(187, 19);
-            this.tbEmail.TabIndex = 7;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.Color.DarkGray;
-            this.label8.Location = new System.Drawing.Point(49, 188);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(259, 13);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "__________________________________________";
-            // 
-            // tbDC
-            // 
-            this.tbDC.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbDC.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDC.Location = new System.Drawing.Point(119, 210);
-            this.tbDC.Name = "tbDC";
-            this.tbDC.Size = new System.Drawing.Size(187, 19);
-            this.tbDC.TabIndex = 7;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.DarkGray;
-            this.label9.Location = new System.Drawing.Point(47, 228);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(259, 13);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "__________________________________________";
             // 
             // FormKhachHang
             // 

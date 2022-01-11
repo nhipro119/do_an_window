@@ -48,10 +48,10 @@ namespace QuanLyCuaHangTapHoa
             if(nv != null)
             {
                 to = nv.Email;
-                from = "doquoccuong065@gmail.com";
-                pass = "Cu7895123";
+                from = "cuahangcapeo@gmail.com";
+                pass = "capeoshop";
                 messagebody = "You have requested to reset your password. Enter this \"" + randomCode + "\" - code to change your password";
-                if (!EmailTB.Text.Contains("@"))
+                if (!to.Contains("@"))
                 {
                     MessageBox.Show("Địa chỉ mail nhập không đúng!", "Lỗi");
                 }
@@ -66,20 +66,22 @@ namespace QuanLyCuaHangTapHoa
                 smtpClient.EnableSsl = true;
                 smtpClient.Port = 587;
                 smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+                smtpClient.UseDefaultCredentials = false;
                 smtpClient.Credentials = new NetworkCredential(from, pass);
-                try
+                
+                //try
                 {
-                    if (EmailTB.Text.Contains("@"))
+                    if (to.Contains("@"))
                     {
                         smtpClient.Send(message);
                         ShowEmailLB.Text = "Một dãy kí tự đã được gửi đến " + to.ToString();
                         CodePN.Visible = true;
                     }
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
+                //catch (Exception ex)
+                //{
+                //    MessageBox.Show(ex.Message);
+                //}
             }
             else
             {
@@ -127,6 +129,7 @@ namespace QuanLyCuaHangTapHoa
                     nv.MatKhau = PassTB.Text;
                     qLCH.SaveChanges();
                     MessageBox.Show("Đổi mật khẩu thành công!", "Thông báo", MessageBoxButtons.OK);
+                    this.Close();
                 }
                 
             }
@@ -135,6 +138,11 @@ namespace QuanLyCuaHangTapHoa
         private void ForgotPassForm_Load(object sender, EventArgs e)
         {
             qLCH = new QLCH();
+        }
+
+        private void hyperlinkLabelControl1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

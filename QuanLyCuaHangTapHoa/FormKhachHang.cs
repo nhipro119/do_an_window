@@ -69,7 +69,7 @@ namespace QuanLyCuaHangTapHoa
         }
         private void btSua_Click(object sender, EventArgs e)
         {
-            KhachHang kh = qLCH.KhachHangs.Find(lbSDT);
+            KhachHang kh = qLCH.KhachHangs.Find(lbSDT.Text);
             if(kh != null)
             {
                 bool key_email = check_space(tbEmail.Text);
