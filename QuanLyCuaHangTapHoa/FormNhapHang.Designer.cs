@@ -31,14 +31,14 @@ namespace QuanLyCuaHangTapHoa
         {
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.dgv_pnh = new System.Windows.Forms.DataGridView();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnNhapHang = new FontAwesome.Sharp.IconButton();
             this.npp = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayNhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nhanvien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnNhapHang = new FontAwesome.Sharp.IconButton();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_pnh)).BeginInit();
             this.panel5.SuspendLayout();
@@ -79,50 +79,6 @@ namespace QuanLyCuaHangTapHoa
             this.dgv_pnh.TabIndex = 11;
             this.dgv_pnh.DoubleClick += new System.EventHandler(this.dgv_pnh_DoubleClick);
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(255)))));
-            this.panel5.Controls.Add(this.textBox1);
-            this.panel5.Controls.Add(this.btnNhapHang);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1203, 59);
-            this.panel5.TabIndex = 10;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(0, 9);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(647, 43);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Tìm Kiếm";
-            // 
-            // btnNhapHang
-            // 
-            this.btnNhapHang.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNhapHang.BackColor = System.Drawing.Color.White;
-            this.btnNhapHang.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNhapHang.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNhapHang.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.btnNhapHang.IconColor = System.Drawing.Color.Black;
-            this.btnNhapHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnNhapHang.IconSize = 18;
-            this.btnNhapHang.Location = new System.Drawing.Point(1006, 0);
-            this.btnNhapHang.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnNhapHang.Name = "btnNhapHang";
-            this.btnNhapHang.Size = new System.Drawing.Size(128, 59);
-            this.btnNhapHang.TabIndex = 2;
-            this.btnNhapHang.Text = "Nhập Hàng";
-            this.btnNhapHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnNhapHang.UseVisualStyleBackColor = false;
-            this.btnNhapHang.Click += new System.EventHandler(this.btnNhapHang_Click);
-            // 
             // npp
             // 
             this.npp.HeaderText = "Nhà phân phối";
@@ -158,6 +114,51 @@ namespace QuanLyCuaHangTapHoa
             this.ma.Name = "ma";
             this.ma.ReadOnly = true;
             this.ma.Visible = false;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(255)))));
+            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.btnNhapHang);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1203, 59);
+            this.panel5.TabIndex = 10;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(0, 9);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(647, 43);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "Tìm Kiếm";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // btnNhapHang
+            // 
+            this.btnNhapHang.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNhapHang.BackColor = System.Drawing.Color.White;
+            this.btnNhapHang.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNhapHang.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhapHang.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.btnNhapHang.IconColor = System.Drawing.Color.Black;
+            this.btnNhapHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnNhapHang.IconSize = 18;
+            this.btnNhapHang.Location = new System.Drawing.Point(1006, 0);
+            this.btnNhapHang.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnNhapHang.Name = "btnNhapHang";
+            this.btnNhapHang.Size = new System.Drawing.Size(128, 59);
+            this.btnNhapHang.TabIndex = 2;
+            this.btnNhapHang.Text = "Nhập Hàng";
+            this.btnNhapHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNhapHang.UseVisualStyleBackColor = false;
+            this.btnNhapHang.Click += new System.EventHandler(this.btnNhapHang_Click);
             // 
             // FormNhapHang
             // 

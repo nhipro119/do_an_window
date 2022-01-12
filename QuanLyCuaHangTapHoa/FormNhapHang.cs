@@ -72,5 +72,10 @@ namespace QuanLyCuaHangTapHoa
             FormTKPNHcs ftk = new FormTKPNHcs(ma);
             ftk.Show();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

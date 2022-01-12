@@ -253,6 +253,7 @@ namespace QuanLyCuaHangTapHoa
             // 
             // cbLH
             // 
+            this.cbLH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbLH.FormattingEnabled = true;
             this.cbLH.Location = new System.Drawing.Point(687, 128);
             this.cbLH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

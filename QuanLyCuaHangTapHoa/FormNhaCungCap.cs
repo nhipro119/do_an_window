@@ -69,12 +69,16 @@ namespace QuanLyCuaHangTapHoa
         private void FormNhaCungCap_Load(object sender, EventArgs e)
         {
             qLCH = new QLCH();
-            cbLH.DataSource = qLCH.LoaiHangs.ToList();
+            load_cb();
+        }
+        void load_cb()
+        {
+            List<LoaiHang> llh = (from lh in qLCH.LoaiHangs where !lh.isDelete select lh).ToList();
+            cbLH.DataSource = llh;
             cbLH.DisplayMember = "TenLH";
             cbLH.ValueMember = "MaLH";
             tbMa.Text = create_ma();
         }
-
         private void iconButton1_Click(object sender, EventArgs e)
         {
             bool key_check = check();

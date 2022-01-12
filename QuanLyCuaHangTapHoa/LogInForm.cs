@@ -47,7 +47,7 @@ namespace QuanLyCuaHangTapHoa
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             NhanVien nv = qLCH.NhanViens.Find(AccountTB.Text);
-            if(nv != null)
+            if(nv != null && !nv.isDelete)
             {
                 if(nv.MatKhau.Equals(PassTB.Text))
                 {

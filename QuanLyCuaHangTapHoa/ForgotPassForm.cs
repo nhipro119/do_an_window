@@ -45,7 +45,7 @@ namespace QuanLyCuaHangTapHoa
             }
             MailMessage message = new MailMessage();
             NhanVien nv = qLCH.NhanViens.Find(EmailTB.Text);
-            if(nv != null)
+            if(nv != null && !nv.isDelete)
             {
                 to = nv.Email;
                 from = "cuahangcapeo@gmail.com";
